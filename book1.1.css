@@ -1,0 +1,659 @@
+* {
+    
+    padding: 0px;
+    border: 0px;
+    margin: 0px ;
+    text-decoration:none;
+    list-style: none;
+}
+
+body {
+    
+    margin: 0px auto;
+}
+
+
+header {
+    
+    margin: 0px auto;
+    max-width: 1140px;
+    
+}
+
+.mainhead img{
+    
+    height: 100px;
+    width: 1920px;
+}
+.head{
+    
+    position: relative;
+    display: inline-flex;
+    top: -130px;
+    color: white;
+    left:250px;
+}
+
+#logo{
+    
+    position: absolute;
+    display: inline-flex;
+    float: left;
+    left: 0px;
+    top: -40px;
+}
+
+#logo h3 {
+    
+    position: relative;
+    float: left;
+    padding: 5px;
+    top:-20px;
+}
+
+#pointer {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 550px;
+    color: white;
+    
+}
+
+#pointer h6 {
+    
+    position: relative;
+    float: right;
+    padding: 10px;
+    top:-12px;
+    text-align: left;
+    border-right: 1px solid white;
+    color: #b0b0b1;
+}
+
+#phone {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 600px;
+    color: white;
+}
+
+#phone h6 {
+    
+    position: relative;
+    float: right;
+    padding: 10px;
+    top:-12px;
+    border-right: 1px solid white;
+    color: #b0b0b1;
+}
+
+#facebook {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 670px;
+}
+#twitter {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 680px;
+}
+.headnavigation{
+    
+    height: 100px;
+    width: 1920px;
+    background-color: #edeff2;
+    
+}
+.mainnavigation ul li {
+    
+    position: relative;
+    display: inline-flex;
+    float: left;
+    list-style: none;
+    padding: 40px 15px;
+    top: -176px;
+    background-color: #edeff2;
+    
+}
+
+.mainnavigation {
+    
+    position:relative;
+    left:300px;
+    
+}
+
+.mainnavigation ul li a {
+    
+    color: black;
+    
+}
+.mainnavigation li:hover {
+    
+    background-color: #d00022;
+        
+}
+
+.mainnavigation .active {
+    
+    background-color: #d00022;
+     
+} 
+
+.mainnavigation a:hover {
+    
+    text-decoration:none;
+    color:white;
+      
+}
+#navigation2 #circle {
+    
+    position:absolute;
+    height:40px;
+    width:40px;
+    border:2px solid #d6d6d6;
+    border-radius:50%;
+    top:30px;
+    left:-3px;
+}
+#navigation2 #search {
+    
+    position:relative;
+    left:10px;
+    top:40px;
+    color: #888888;
+}
+
+#navigation2{
+    
+    float: right;
+}
+
+#navigation2 img{
+    
+    padding-right: 5px;
+}
+
+#navigation2 li:hover{
+    
+   background-color: #eee;
+    font-weight:700;
+}
+
+#navigation2 a:hover{
+    
+    color:#d0000f;
+}
+
+/*---------------End of Header------------------*/
+
+.mainimg figure{
+    
+    position: absolute;
+    top:200px;
+    
+}
+ 
+.mainimg1 img{
+    
+    width:1920px;
+    
+}
+
+.caption{
+    
+    position:absolute;
+    top:50%;
+    left:25%;
+    color:white;
+}
+
+.caption2 {
+    
+    
+    position:absolute;
+    top:50%;
+    left:80%;
+    color:white;
+}
+
+.caption2 #home{
+    
+    color:white;
+}
+
+.caption2 #Gallery{
+    
+    color:white;
+}
+
+
+/*-------------END----------------*/
+
+.maincontent{
+    
+    position:relative;
+    top:500px;
+    height: 1700px;
+    max-width: 1140px;
+    left:250px;
+}
+
+#Vcontent {
+    
+   position:relative;
+    display:inline-flex;
+    left:250px;
+}
+
+#Vcontent {
+    
+   position:relative;
+    
+}
+
+#Vyear h6{
+    
+   position:absolute;
+    top:100px;
+}
+
+#Vyear input{
+    
+   position:absolute;
+    width: 150px;
+    top:170px;
+}
+
+#Vyear button{
+    
+   position:absolute;
+    right:360px;
+    top:160px;
+    background-color:#fff;
+    border:1px solid #eee;
+    padding:5px 20px;
+}
+
+#Vmake h6{
+    
+   position:relative;
+    left:300px;
+    top:100px;
+}
+
+#Darrw{
+    
+    position:relative;
+    top:120px;
+    left:280px;
+}
+#Vmake input{
+    
+   position:relative;
+    left:300px;
+    top:120px;
+    border:1px solid #eee;
+    padding:10px 60px;
+   
+}
+
+#Vmake2 h6{
+    
+   position:relative;
+    left:350px;
+    top:100px;
+}
+
+#Vmake2 input{
+    
+   position:relative;
+    left:350px;
+    top:120px;
+    border:1px solid #eee;
+    padding:10px 60px;
+}
+
+#Vmake3 h6{
+    
+   position:absolute;
+    left:0px;
+    top:250px;
+}
+
+#Vmake3 input{
+    
+   position:absolute;
+    left:0px;
+    top:300px;
+    border:1px solid #eee;
+    padding:10px 20px;
+    width:450px;
+}
+
+#Darrw3{
+    
+    position:absolute;
+    top:310px;
+    left:420px;
+}
+#Vmake4 h6{
+    
+   position:absolute;
+    left:500px;
+    top:250px;
+    width:100%;
+}
+
+#Vmake4 input{
+    
+   position:absolute;
+    left:500px;
+    top:300px;
+    border:1px solid #eee;
+    padding:10px 20px;
+    width:450px;
+}
+
+#Darrw4{
+    
+    position:absolute;
+    top:310px;
+    left:920px;
+}
+
+#Vmake5 h6{
+    
+   position:absolute;
+    left:0px;
+    top:380px;
+    
+}
+
+#Vmake5 input{
+    
+   position:absolute;
+    left:0px;
+    top:420px;
+    border:1px solid #eee;
+    padding:10px 20px;
+    width:450px;
+}
+
+#Vmake6 h6{
+    
+   position:absolute;
+    left:500px;
+    top:380px;
+    width:100%;
+}
+
+#Vmake6 input{
+    
+   position:absolute;
+    left:500px;
+    top:420px;
+    border:1px solid #eee;
+    padding:10px 20px;
+    width:450px;
+}
+
+#Darrw6{
+    
+    position:absolute;
+    top:430px;
+    left:920px;
+}
+
+#Make56{
+    
+   
+    border-bottom: 1px solid #eee;
+}
+
+#Cdet{
+    
+    position:relative;
+    top:500px;
+    left:250px;
+    color:#eee;
+}
+
+#Deta h6{
+    
+    position:relative;
+    top:480px;
+    left:255px;
+    
+}
+#Cdet input{
+    
+    
+    border:1px solid #eee;
+    padding:10px 20px;
+    width:300px;
+    margin:0px 10px;
+    color:#eee;
+}
+
+#Deta textarea{
+    
+    position:absolute;
+    top:800px;
+    left:250px;
+    border:1px solid #eee;
+    width:1000px;
+    padding:20px;
+    height:200px;
+    color:#aaa;
+}
+
+#Deta button{
+    
+    position:absolute;
+    top:1050px;
+    left:1120px;
+    padding:10px 15px;
+    width:130px;
+    background-color:#d00022;
+    color:#fff;
+    
+}
+    /*-------------LOGOS----------------*/
+
+#contact {
+    
+    position: relative;
+    bottom:-10px;
+}
+
+#contact img{
+    
+    width:1920px;
+}
+
+.contactdetails {
+    
+    position: relative;
+    float:left;
+    display:inline-flex;
+    bottom:90px;
+    color:white;
+    left:660px;
+}
+
+.contactdetails span{
+    
+    
+    margin: 0px 20px;
+    padding: 0px 0px;
+   
+}
+#map  {
+    
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    left:90px;
+    
+}
+
+#map  h6{
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 15px;
+    left:0px;
+}
+
+#mail  {
+    
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 20px;
+    
+    left:130px;
+}
+
+#mail  h6{
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 20px;
+    left:0px;
+}
+
+#phone2  {
+    
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    left:180px;
+    
+}
+
+#phone2  h6{
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 20px;
+    
+}
+
+/*-------------footer----------------*/
+
+.footer {
+    
+    position:relative;
+    bottom:0px;
+    width: 1920px;
+    height: 462px;
+    background-color: #1a1d21;
+    margin: 0px auto;
+    
+}
+
+span#company{
+    
+    position: relative;
+    float:left;
+    top: 100px;
+    left:-150px;
+}
+
+#links {
+    
+    position: relative;
+    top: 100px;
+    list-style: none;
+    text-decoration: none;
+    right: 0px;
+}
+
+#links span{
+    
+    position: relative;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right:  60px;
+    color:#646566;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+#links span ul li{
+    
+    padding-top: 30px;
+    color:#646566;
+    line-height: 3px;
+    list-style: none;
+    text-decoration: none;
+}
+
+#links span ul li a{
+    
+    color:#646566;
+    list-style: none;
+    text-decoration: none;
+}
+
+.newsletter{
+    
+    position: relative;
+    float:right;
+    top: -40px;
+    right:100px;
+}
+
+.newsletter input{
+    
+    padding: 10px 30px;
+    background-color: #212428;
+}
+
+.newsletter button{
+    
+    padding: 10px 20px;
+    background-color: #d00022;
+    color:white;
+}
+
+#copyw {
+    
+    position: relative;
+    top:170px;
+    
+}
+
+#copyw span{
+    
+    position: relative;
+    float:left;
+    
+}
+#copyw p{
+    
+    position: relative;
+    left:600px;
+    top: 175px;
+    color: #7f8081;
+}
+ 

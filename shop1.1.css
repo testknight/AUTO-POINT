@@ -1,0 +1,682 @@
+* {
+    
+    padding: 0px;
+    border: 0px;
+    margin: 0px ;
+    text-decoration:none;
+    list-style: none;
+}
+
+body {
+    
+    margin: 0px auto;
+}
+
+
+header {
+    
+    margin: 0px auto;
+    max-width: 1140px;
+    
+}
+
+.mainhead img{
+    
+    height: 100px;
+    width: 1920px;
+}
+.head{
+    
+    position: relative;
+    display: inline-flex;
+    top: -130px;
+    color: white;
+    
+}
+
+#logo{
+    
+    position: absolute;
+    display: inline-flex;
+    float: left;
+    left: 0px;
+    top: -40px;
+}
+
+#logo h3 {
+    
+    position: relative;
+    float: left;
+    padding: 5px;
+    top:-20px;
+}
+
+#pointer {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 550px;
+    color: white;
+    
+}
+
+#pointer h6 {
+    
+    position: relative;
+    float: right;
+    padding: 10px;
+    top:-12px;
+    text-align: left;
+    border-right: 1px solid white;
+    color: #b0b0b1;
+}
+
+#phone {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 600px;
+    color: white;
+}
+
+#phone h6 {
+    
+    position: relative;
+    float: right;
+    padding: 10px;
+    top:-12px;
+    border-right: 1px solid white;
+    color: #b0b0b1;
+}
+
+#facebook {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 670px;
+}
+#twitter {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 680px;
+}
+.headnavigation{
+    
+    height: 100px;
+    width: 1920px;
+    background-color: #edeff2;
+    
+}
+.mainnavigation ul li {
+    
+    position: relative;
+    display: inline-flex;
+    float: left;
+    list-style: none;
+    padding: 40px 15px;
+    top: -176px;
+    background-color: #edeff2;
+    
+}
+
+.mainnavigation ul li a {
+    
+    color: black;
+    
+}
+.mainnavigation li:hover {
+    
+    background-color: #d00022;
+        
+}
+
+.mainnavigation .active {
+    
+    background-color: #d00022;
+     
+} 
+
+.mainnavigation a:hover {
+    
+    text-decoration:none;
+    color:white;
+      
+}
+#navigation2 #circle {
+    
+    position:absolute;
+    height:40px;
+    width:40px;
+    border:2px solid #d6d6d6;
+    border-radius:50%;
+    top:30px;
+    left:-3px;
+}
+#navigation2 #search {
+    
+    position:relative;
+    left:10px;
+    top:40px;
+    color: #888888;
+}
+
+#navigation2{
+    
+    float: right;
+}
+
+#navigation2 img{
+    
+    padding-right: 5px;
+}
+
+#navigation2 li:hover{
+    
+   background-color: #eee;
+    font-weight:700;
+}
+
+#navigation2 a:hover{
+    
+    color:#d0000f;
+}
+/*---------------End of Header------------------*/
+
+.mainimg figure{
+    
+    position: absolute;
+    top:200px;
+    
+}
+ 
+.caption{
+    
+    position:absolute;
+    top:50%;
+    left:10%;
+    color:white;
+}
+
+.caption2 {
+    
+    
+    position:absolute;
+    top:50%;
+    left:70%;
+    color:white;
+}
+
+.caption2 #home{
+    
+    color:white;
+}
+
+.caption2 #Gallery{
+    
+    color:white;
+}
+
+
+/*-------------END----------------*/
+
+.maincontent{
+    
+    position:relative;
+    top:600px;
+    height: 2500px;
+    max-width: 1140px;
+    left:200px;
+    
+}
+
+.leftcontent{
+    
+    position:relative;
+    float:left;
+    width: 30%;
+    left:200px;
+    
+}
+
+.leftcontent input{
+    
+    position:relative;
+    border:1px solid #eee;
+    padding:10px 20px;
+    outline:none;
+    bottom:20px;
+    
+}
+
+.leftcontent li{
+    
+    position:relative;
+    border-bottom:1px dashed #eee;
+    padding:10px 0px;
+    outline:none;
+    
+}
+
+.leftcontent a{
+    
+    text-decoration: none;
+    color:#666;
+    
+}
+.leftcontent a:hover{
+    
+    text-decoration: none;
+    color:#666;
+    font-weight:600;
+}
+#searchicon{
+    
+    position:relative;
+    border:1px solid #eee;
+    outline:none;
+    padding:12px;
+    background-color:black;
+    right:40px;
+    bottom:20px;
+}
+
+#pricing{
+    
+    position: relative;
+    top:20px;
+}
+
+#pricing p{
+    
+    position: relative;
+    top:35px;
+    left:200px;
+    font-size:10px;
+    color:#666
+}
+/*--------range------------*/
+
+input[type='range'] {
+  width: 910px;
+  height: 30px;
+  overflow: hidden;
+  cursor: pointer;
+    outline: none;
+}
+input[type='range'],
+input[type='range']::-webkit-slider-runnable-track,
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+    background: none;
+}
+input[type='range']::-webkit-slider-runnable-track {
+  width: 600px;
+  height: 1px;
+  background: #003D7C;
+}
+
+input[type='range']:nth-child(2)::-webkit-slider-runnable-track{
+  background: none;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  position: relative;
+  height: 15px;
+  width: 15px;
+  margin-top: -7px;
+  background: #fff;
+  border: 1px solid #003D7C;
+  border-radius: 0px;
+  z-index: 1;
+}
+
+
+input[type='range']:nth-child(1)::-webkit-slider-thumb{
+  z-index: 2;
+}
+
+
+
+.rangeslider{
+    position: relative;
+    left:1px;
+    height: 60px;
+    width: 310px;
+    display: inline-block;
+    margin-top: -5px;
+    margin-left: 0px;
+}
+.rangeslider input{
+    position: absolute;
+}
+.rangeslider{
+    position: absolute;
+}
+
+.rangeslider span{
+    position: absolute;
+    margin-top: 30px;
+    left: 0;
+}
+
+.rangeslider .right{
+   position: relative;
+   float: right;
+   margin-right: -5px;
+}
+
+
+/*-----------range------*/
+#pricing button{
+    
+    position: relative;
+    top:50px;
+    padding:5px 20px;
+    font-size:10px;
+    color:#666
+}
+#note1{
+
+    position:relative;
+    top:423px;
+    color:#aaa;
+    right:80px;
+}
+
+#note2{
+
+    position:relative;
+    top:400px;
+    color:#000;
+    left:710px;
+}
+
+#note2 a{
+    
+    text-decoration: none;
+    color:#000;
+}
+
+.rightcontent{
+    
+    position:relative;
+    left:300px;
+    width: 70%;
+    bottom: 450px
+}
+#productimg {
+    
+    position:relative;
+    display:inline-flex;
+    float:left;
+    top: 50px;
+    left:250px;
+     width: 70%;
+    text-align:center;
+    
+}
+
+#productimg span{
+    
+    width: 300px;
+    height: 370px;
+    margin: 10px;
+    
+}
+
+#productimg img{
+    
+    
+    border: 1px solid #eee;
+}
+
+
+#photos {
+    
+    position: relative;
+    left:200px;
+    
+}
+
+.pagination {
+    
+    position: relative;
+    top: 1700px;
+    left:300px;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 4px 12px;
+    text-decoration: none;
+    border:1px solid #eee;
+    margin:2px;
+}
+
+.pagination a.active {
+    background-color: #000;
+    color: white;
+    border-radius: 0px;
+    text-decoration:none;
+}
+
+.pagination a:hover {
+    background-color: #000;
+    border-radius: 0px;
+    color:#fff;
+    text-decoration:none;
+    font-weight:600;
+}
+   
+    /*-------------LOGOS----------------*/
+
+#contact {
+    
+    position: relative;
+    bottom:300px;
+}
+
+
+.contactdetails {
+    
+    position: relative;
+    float:left;
+    display:inline-flex;
+    bottom:400px;
+    color:white;
+    left:660px;
+}
+
+.contactdetails span{
+    
+    
+    margin: 0px 20px;
+    padding: 0px 0px;
+   
+}
+#map  {
+    
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    left:90px;
+    
+}
+
+#map  h6{
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 15px;
+    left:0px;
+}
+
+#mail  {
+    
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 20px;
+    
+    left:130px;
+}
+
+#mail  h6{
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 20px;
+    left:0px;
+}
+
+#phone2  {
+    
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    left:180px;
+    
+}
+
+#phone2  h6{
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 20px;
+    
+}
+
+/*-------------footer----------------*/
+
+.footer {
+    
+    position:relative;
+    bottom:310px;
+    width: 1920px;
+    height: 462px;
+    background-color: #1a1d21;
+    margin: 0px auto;
+    
+}
+
+span#company{
+    
+    position: relative;
+    float:left;
+    top: 100px;
+    left:-200px;
+    
+}
+
+#links {
+    
+    position: relative;
+    top: 100px;
+    list-style: none;
+    text-decoration: none;
+    right: 0px;
+}
+
+#links span{
+    
+    position: relative;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right:  60px;
+    color:#646566;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+#links span ul li{
+    
+    padding-top: 30px;
+    color:#646566;
+    line-height: 3px;
+    list-style: none;
+    text-decoration: none;
+}
+
+#links span ul li a{
+    
+    color:#646566;
+    list-style: none;
+    text-decoration: none;
+}
+
+.newsletter{
+    
+    position: relative;
+    float:right;
+    top: -40px;
+    right:100px;
+}
+
+.newsletter input{
+    
+    padding: 10px 30px;
+    background-color: #212428;
+}
+
+.newsletter button{
+    
+    padding: 10px 20px;
+    background-color: #d00022;
+    color:white;
+}
+
+#copyw {
+    
+    position: relative;
+    top:170px;
+    
+}
+
+#copyw span{
+    
+    position: relative;
+    float:left;
+    
+}
+#copyw p{
+    
+    position: relative;
+    left:600px;
+    top: 175px;
+    color: #7f8081;
+}
+ <!--------services------------>
+
+
+
+/*
+.toggle{
+ display:inline-block;
+height:48px;
+width:48px; background:url("http://icons.iconarchive.com/icons/pixelmixer/basic/48/plus-icon.png");
+ 
+}
+.toggle.expanded{
+  background:url("http://cdn2.iconfinder.com/data/icons/onebit/PNG/onebit_32.png");
+}
+
+*/

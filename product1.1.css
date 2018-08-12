@@ -1,0 +1,870 @@
+* {
+    
+    padding: 0px;
+    border: 0px;
+    margin: 0px ;
+    text-decoration:none;
+    list-style: none;
+}
+
+body {
+    
+    margin: 0px auto;
+}
+
+
+header {
+    
+    margin: 0px auto;
+    max-width: 1140px;
+    
+}
+
+.mainhead img{
+    
+    height: 100px;
+    width: 1920px;
+}
+.head{
+    
+    position: relative;
+    display: inline-flex;
+    top: -130px;
+    color: white;
+    left:250px;
+}
+
+#logo{
+    
+    position: absolute;
+    display: inline-flex;
+    float: left;
+    left: 0px;
+    top: -40px;
+}
+
+#logo h3 {
+    
+    position: relative;
+    float: left;
+    padding: 5px;
+    top:-20px;
+}
+
+#pointer {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 550px;
+    color: white;
+    
+}
+
+#pointer h6 {
+    
+    position: relative;
+    float: right;
+    padding: 10px;
+    top:-12px;
+    text-align: left;
+    border-right: 1px solid white;
+    color: #b0b0b1;
+}
+
+#phone {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 600px;
+    color: white;
+}
+
+#phone h6 {
+    
+    position: relative;
+    float: right;
+    padding: 10px;
+    top:-12px;
+    border-right: 1px solid white;
+    color: #b0b0b1;
+}
+
+#facebook {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 670px;
+}
+#twitter {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 680px;
+}
+.headnavigation{
+    
+    height: 100px;
+    width: 1920px;
+    background-color: #edeff2;
+    
+}
+.mainnavigation ul li {
+    
+    position: relative;
+    display: inline-flex;
+    float: left;
+    list-style: none;
+    padding: 40px 15px;
+    top: -176px;
+    background-color: #edeff2;
+    
+}
+
+.mainnavigation ul li a {
+    
+    color: black;
+    
+}
+
+.mainnavigation {
+    
+    position:relative;
+    left:300px;
+    
+}
+
+.mainnavigation li:hover {
+    
+    background-color: #d00022;
+        
+}
+
+.mainnavigation .active {
+    
+    background-color: #d00022;
+     
+} 
+
+.mainnavigation a:hover {
+    
+    text-decoration:none;
+    color:white;
+      
+}
+#navigation2 #circle {
+    
+    position:absolute;
+    height:40px;
+    width:40px;
+    border:2px solid #d6d6d6;
+    border-radius:50%;
+    top:30px;
+    left:-3px;
+}
+#navigation2 #search {
+    
+    position:relative;
+    left:10px;
+    top:40px;
+    color: #888888;
+}
+
+#navigation2{
+    
+    float: right;
+}
+
+#navigation2 img{
+    
+    padding-right: 5px;
+}
+
+#navigation2 li:hover{
+    
+   background-color: #eee;
+    font-weight:700;
+}
+
+#navigation2 a:hover{
+    
+    color:#d0000f;
+}
+/*---------------End of Header------------------*/
+
+.mainimg figure{
+    
+    position: absolute;
+    top:200px;
+    
+}
+ 
+.mainimg1 img{
+    
+    width:1920px;
+    
+}
+
+.caption{
+    
+    position:absolute;
+    top:50%;
+    left:25%;
+    color:white;
+}
+
+.caption2 {
+    
+    
+    position:absolute;
+    top:50%;
+    left:80%;
+    color:white;
+}
+
+.caption2 #home{
+    
+    color:white;
+}
+
+.caption2 #Gallery{
+    
+    color:white;
+}
+
+
+/*-------------END----------------*/
+
+.maincontent{
+    
+    position:relative;
+    top:600px;
+    height: 2500px;
+    max-width: 1140px;
+    left:250px;
+    
+}
+
+.leftcontent{
+    
+    position:relative;
+    float:left;
+    width: 30%;
+    left:100px;
+    
+}
+
+.leftcontent input{
+    
+    position:relative;
+    border:1px solid #eee;
+    padding:10px 20px;
+    outline:none;
+    bottom:20px;
+    
+}
+
+.leftcontent li{
+    
+    position:relative;
+    border-bottom:1px dashed #eee;
+    padding:10px 0px;
+    outline:none;
+    
+}
+
+.leftcontent a{
+    
+    text-decoration: none;
+    color:#666;
+    
+}
+.leftcontent a:hover{
+    
+    text-decoration: none;
+    color:#666;
+    font-weight:600;
+}
+#searchicon{
+    
+    position:relative;
+    border:1px solid #eee;
+    outline:none;
+    padding:12px;
+    background-color:black;
+    right:40px;
+    bottom:20px;
+}
+
+
+/*----------------*/
+
+
+
+#leftheading h6{
+    
+    position:absolute;
+    font-size:20px;
+    top:320px;
+    z-index:2;
+}
+
+
+.thumbnailproduct img{
+    
+    position:relative;
+    top:100px;
+    width: 82px;
+    height:82px;
+   border: 1px solid #aaa; 
+    
+}
+.thumbnailproduct {
+    
+    position: absolute;
+    bottom:-500px;
+    width:100%;
+}
+ 
+div.prod{
+    
+    position:relative;
+    left:100px;
+    top:10px;
+    
+}
+
+.line{
+    
+    
+    
+    
+}
+
+
+/*-----------------*/
+
+#products{
+    
+    position:relative;
+    top:400px;    
+}
+
+#products h5{
+    
+    position:relative;
+    left:750px;
+    bottom:450px;
+    font-weight:600;
+    font-size:20px;
+}
+
+#products p{
+    
+    position:relative;
+    left:750px;
+    bottom:450px;
+}
+
+#plusecircle{
+    
+    position:relative;
+    height:30px;
+    width:30px;
+    left:660px;
+    background-color: #fff;
+    border:1px solid #aaa;
+    border-radius:50%;
+    bottom:500px;
+    
+}
+
+#plusecircle1{
+    
+    position:relative;
+    left:670px;
+    background-color: #fff;
+    bottom:524px;
+    
+}
+
+#plusecircle1 a{
+    
+    text-decoration:none;
+    color:#aaa;
+    
+}
+
+#discription{
+    
+    
+    position:absolute;
+    bottom: -30px;
+    left:750px;
+    width:100%;
+}
+
+#tags{
+    
+    position:absolute;
+    bottom:-120px;
+    right:-125px;
+}
+
+#box1{
+    
+    position: absolute;
+    left:750px;
+    bottom:-200px;
+    height:60px;
+    width:60px;
+    border:1px solid #aaa;
+    outline:none;
+}
+
+
+
+#number{
+    
+    position:relative;
+    color:black;
+    left: 760px;
+    top:211px;
+}
+
+#arrowup{
+    
+    position: absolute;
+    left:810px;
+    bottom:-170px;
+    height:30px;
+    width:30px;
+    border:1px solid #aaa;
+    border-left:0px;
+    border-bottom:0px;
+    outline:none;
+}
+
+
+#arrowdown{
+    
+    position: relative;
+    left:810px;
+    bottom:-200px;
+    height:30px;
+    width:30px;
+    border:1px solid #aaa;
+    border-left:0px;
+    outline:none;
+}
+
+
+#up{
+    
+    position:relative;
+    top:196px;
+    left:795px;
+    color:#aaa
+}
+
+#up a{
+    
+    color:#aaa;
+    
+}
+#up a:hover{
+    
+    color:#000;
+    
+}
+
+#down{
+    
+    position:absolute;
+    bottom:-196px;
+    left:822px;
+    color:#aaa
+}
+
+#down a{
+    
+    color:#aaa; 
+}
+
+#down a:hover{
+    
+    color:#000;
+}
+
+#cart{
+    
+    position:absolute;
+    bottom:-200px;
+    left:850px;
+        width:100%;
+    
+}
+
+#cart button{
+    
+    padding:20px 30px;
+    background-color:#d00022;
+    color:#fff;
+}
+
+#cart button:hover{
+    
+    color:#eee;
+}
+
+#cart1{
+    
+    position:absolute;
+    bottom:-200px;
+    left:1005px;
+        width:100%;
+    
+}
+
+#cart1 button{
+    
+    padding:20px 20px;
+    background-color:#d00022;
+    color:#fff;
+}
+
+#cart1 button:hover {
+    
+    color:#eee;
+}
+
+#cart2{
+    
+    position:absolute;
+    bottom:-240px;
+    left:750px;
+        width:100%;
+    
+}
+
+#cart2 button{
+    
+    
+    background-color: transparent;
+    color:#000;
+}
+
+#revbuttons{
+
+    position:absolute;
+    bottom:-400px;
+    left:350px;
+    
+}
+
+#revbuttons button{
+    
+    position: relative;
+    margin-right:30px;
+    background-color: transparent;
+    outline:none;
+    font-weight:600;
+    
+    
+}
+
+#revbuttons button:hover{
+    
+    border-bottom:2px solid #d00022;
+    
+}
+
+button.active{
+    
+    border-bottom:2px solid #d00022;
+}
+
+#mainpara{
+
+    position: absolute;
+    bottom: -520px;
+    width:100%;
+    left: 350px;
+    
+}
+
+#prodheading {
+    
+    position:absolute;
+    top:1300px;
+    left:350px;
+}
+
+.rightcontent a{
+    
+    text-decoration: none;
+    color:#000;
+    font-weight:400;
+    
+}
+
+.rightcontent a:hover{
+    
+    font-weight:600;
+     text-decoration: none;
+    color:#000;
+}
+
+.rightcontent{
+    
+    position:relative;
+    left:200px;
+    width: 70%;
+    bottom: 450px
+}
+#productimg {
+    
+    position:relative;
+    display:inline-flex;
+    float:left;
+    top:650px;
+    left:340px;
+     width: 70%;
+    text-align:center;
+    
+}
+
+#productimg span{
+    
+    width: 300px;
+    height: 370px;
+    margin: 10px;
+    
+}
+
+#productimg img{
+    
+    
+    border: 1px solid #eee;
+}
+
+
+#photos {
+    
+    position: relative;
+    left:200px;
+    
+}
+
+
+   
+    /*-------------LOGOS----------------*/
+
+#contact {
+    
+    position: relative;
+    bottom:450px;
+}
+
+#contact img{
+    
+    width:1920px;
+}
+
+.contactdetails {
+    
+    position: relative;
+    float:left;
+    display:inline-flex;
+    bottom:550px;
+    color:white;
+    left:660px;
+}
+
+.contactdetails span{
+    
+    
+    margin: 0px 20px;
+    padding: 0px 0px;
+   
+}
+#map  {
+    
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    left:90px;
+    
+}
+
+#map  h6{
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 15px;
+    left:0px;
+}
+
+#mail  {
+    
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 20px;
+    
+    left:130px;
+}
+
+#mail  h6{
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 20px;
+    left:0px;
+}
+
+#phone2  {
+    
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    left:180px;
+    
+}
+
+#phone2  h6{
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 20px;
+    
+}
+
+/*-------------footer----------------*/
+
+.footer {
+    
+    position:relative;
+    bottom:460px;
+    width: 1920px;
+    height: 462px;
+    background-color: #1a1d21;
+    margin: 0px auto;
+    
+}
+
+span#company{
+    
+    position: relative;
+    float:left;
+    top: 100px;
+    left:-150px;
+    
+}
+
+#links {
+    
+    position: relative;
+    top: 100px;
+    list-style: none;
+    text-decoration: none;
+    right: 0px;
+}
+
+#links span{
+    
+    position: relative;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right:  60px;
+    color:#646566;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+#links span ul li{
+    
+    padding-top: 30px;
+    color:#646566;
+    line-height: 3px;
+    list-style: none;
+    text-decoration: none;
+}
+
+#links span ul li a{
+    
+    color:#646566;
+    list-style: none;
+    text-decoration: none;
+}
+
+.newsletter{
+    
+    position: relative;
+    float:right;
+    top: -40px;
+    right:100px;
+}
+
+.newsletter input{
+    
+    padding: 10px 30px;
+    background-color: #212428;
+}
+
+.newsletter button{
+    
+    padding: 10px 20px;
+    background-color: #d00022;
+    color:white;
+}
+
+#copyw {
+    
+    position: relative;
+    top:170px;
+    
+}
+
+#copyw span{
+    
+    position: relative;
+    float:left;
+    left:400px;
+    
+}
+#copyw p{
+    
+    position: relative;
+    left:600px;
+    top: 175px;
+    color: #7f8081;
+}
+ <!--------services------------>
+
+
+
+/*
+.toggle{
+ display:inline-block;
+height:48px;
+width:48px; background:url("http://icons.iconarchive.com/icons/pixelmixer/basic/48/plus-icon.png");
+ 
+}
+.toggle.expanded{
+  background:url("http://cdn2.iconfinder.com/data/icons/onebit/PNG/onebit_32.png");
+}
+
+*/

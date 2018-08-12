@@ -1,0 +1,459 @@
+* {
+    
+    padding: 0px;
+    border: 0px;
+    margin: 0px ;
+    text-decoration:none;
+    list-style: none;
+}
+
+body {
+    
+    margin: 0px auto;
+}
+
+
+header {
+    
+    margin: 0px auto;
+    max-width: 1140px;
+    
+}
+
+.mainhead img{
+    
+    height: 100px;
+    width: 1920px;
+}
+.head{
+    
+    position: relative;
+    display: inline-flex;
+    top: -130px;
+    color: white;
+    left:200px;
+    
+}
+
+#logo{
+    
+    position: absolute;
+    display: inline-flex;
+    float: left;
+    left: 0px;
+    top: -40px;
+}
+
+#logo h3 {
+    
+    position: relative;
+    float: left;
+    padding: 5px;
+    top:-20px;
+}
+
+#pointer {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 550px;
+    color: white;
+    
+}
+
+#pointer h6 {
+    
+    position: relative;
+    float: right;
+    padding: 10px;
+    top:-12px;
+    text-align: left;
+    border-right: 1px solid white;
+    color: #b0b0b1;
+}
+
+#phone {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 600px;
+    color: white;
+}
+
+#phone h6 {
+    
+    position: relative;
+    float: right;
+    padding: 10px;
+    top:-12px;
+    border-right: 1px solid white;
+    color: #b0b0b1;
+}
+
+#facebook {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 670px;
+}
+#twitter {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 680px;
+}
+.headnavigation{
+    
+    height: 100px;
+    width: 1920px;
+    background-color: #edeff2;
+    
+}
+.mainnavigation ul li {
+    
+    position: relative;
+    display: inline-flex;
+    float: left;
+    list-style: none;
+    padding: 40px 15px;
+    top: -176px;
+    background-color: #edeff2;
+    
+}
+
+.mainnavigation ul li a {
+    
+    color: black;
+    
+}
+.mainnavigation li:hover {
+    
+    background-color: #d00022;
+        
+}
+
+.mainnavigation {
+    
+    position:relative;
+    left:250px;
+     
+} 
+
+.mainnavigation .active {
+    
+    background-color: #d00022;
+     
+} 
+
+.mainnavigation a:hover {
+    
+    text-decoration:none;
+    color:white;
+      
+}
+#navigation2 #circle {
+    
+    position:absolute;
+    height:40px;
+    width:40px;
+    border:2px solid #d6d6d6;
+    border-radius:50%;
+    top:30px;
+    left:-3px;
+}
+#navigation2 #search {
+    
+    position:relative;
+    left:10px;
+    top:40px;
+    color: #888888;
+}
+
+#navigation2{
+    
+    float: right;
+}
+
+#navigation2 img{
+    
+    padding-right: 5px;
+}
+
+#navigation2 li:hover{
+    
+   background-color: #eee;
+    font-weight:700;
+}
+
+#navigation2 a:hover{
+    
+    color:#d0000f;
+}
+
+/*---------------CAROUSEL------------------*/
+
+.mainimg figure{
+    
+    position: absolute;
+    top: 200px;
+    
+}
+ 
+.caption{
+    
+    position:absolute;
+    top:50%;
+    left:10%;
+    color:white;
+}
+
+.caption2 {
+    
+    
+    position:absolute;
+    top:50%;
+    left:70%;
+    color:white;
+}
+
+.caption2 #home{
+    
+    color:white;
+}
+
+.caption2 #buy{
+    
+    color:white;
+}
+
+
+/*-------------END----------------*/
+
+#mainshowcase{
+    
+    position:relative;
+    height:1500px;
+    width:auto;
+    top:600px;
+    left:220px;
+}
+.showcase {
+    
+    position: relative;
+    display: inline-flex;
+    float:left;
+    bottom: 70px;
+    left: 15%;
+    height: 400px;
+    max-width:1140px;
+    margin: 10px 0px;
+}
+
+.showcase span {
+    
+    
+    margin: 0px 10px;
+}
+
+#contact {
+    
+    position: relative;
+    bottom:-10px;
+}
+
+
+.contactdetails {
+    
+    position: relative;
+    float:left;
+    display:inline-flex;
+    bottom:80px;
+    color:white;
+    left:660px;
+}
+
+.contactdetails span{
+    
+    
+    margin: 0px 20px;
+    padding: 0px 0px;
+   
+}
+#map  {
+    
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    left:90px;
+    
+}
+
+#map  h6{
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 15px;
+    left:0px;
+}
+
+#mail  {
+    
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 20px;
+    
+    left:130px;
+}
+
+#mail  h6{
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 20px;
+    left:0px;
+}
+
+#phone2  {
+    
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    left:180px;
+    
+}
+
+#phone2  h6{
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 20px;
+    
+}
+
+.footer {
+    
+    position:relative;
+    bottom:0px;
+    width: 1920px;
+    height: 462px;
+    background-color: #1a1d21;
+    margin: 0px auto;
+    
+}
+
+span#company{
+    
+    position: relative;
+    float:left;
+    top: 100px;
+    left:-200px;
+    
+}
+
+#links {
+    
+    position: relative;
+    top: 100px;
+    list-style: none;
+    text-decoration: none;
+    right: 0px;
+}
+
+#links span{
+    
+    position: relative;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right:  60px;
+    color:#646566;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+#links span ul li{
+    
+    padding-top: 30px;
+    color:#646566;
+    line-height: 3px;
+    list-style: none;
+    text-decoration: none;
+}
+
+#links span ul li a{
+    
+    color:#646566;
+    list-style: none;
+    text-decoration: none;
+}
+
+.newsletter{
+    
+    position: relative;
+    float:right;
+    top: -40px;
+    right:100px;
+}
+
+.newsletter input{
+    
+    padding: 10px 30px;
+    background-color: #212428;
+}
+
+.newsletter button{
+    
+    padding: 10px 20px;
+    background-color: #d00022;
+    color:white;
+}
+
+#copyw {
+    
+    position: relative;
+    top:170px;
+    
+}
+
+#copyw span{
+    
+    position: relative;
+    float:left;
+    
+}
+#copyw p{
+    
+    position: relative;
+    left:600px;
+    top: 175px;
+    color: #7f8081;
+}
+ <!--------services------------>
+
+
+
+/*
+.toggle{
+ display:inline-block;
+height:48px;
+width:48px; background:url("http://icons.iconarchive.com/icons/pixelmixer/basic/48/plus-icon.png");
+ 
+}
+.toggle.expanded{
+  background:url("http://cdn2.iconfinder.com/data/icons/onebit/PNG/onebit_32.png");
+}
+
+*/

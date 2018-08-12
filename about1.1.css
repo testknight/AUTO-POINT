@@ -1,0 +1,771 @@
+    * {
+    
+    padding: 0px;
+    border: 0px;
+    margin: 0px ;
+    text-decoration:none;
+    list-style: none;
+}
+
+body {
+    
+    margin: 0px auto;
+}
+
+
+header {
+    
+    margin: 0px auto;
+    max-width: 1140px;
+    
+}
+
+.mainhead img{
+    
+    height: 100px;
+    width: 1920px;
+}
+.head{
+    
+    position: relative;
+    display: inline-flex;
+    top: -130px;
+    color: white;
+    left:200px;
+}
+
+#logo{
+    
+    position: absolute;
+    display: inline-flex;
+    float: left;
+    left: 0px;
+    top: -40px;
+}
+
+#logo h3 {
+    
+    position: relative;
+    float: left;
+    padding: 5px;
+    top:-20px;
+}
+
+#pointer {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 550px;
+    color: white;
+    
+}
+
+#pointer h6 {
+    
+    position: relative;
+    float: right;
+    padding: 10px;
+    top:-12px;
+    text-align: left;
+    border-right: 1px solid white;
+    color: #b0b0b1;
+}
+
+#phone {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 600px;
+    color: white;
+}
+
+#phone h6 {
+    
+    position: relative;
+    float: right;
+    padding: 10px;
+    top:-12px;
+    border-right: 1px solid white;
+    color: #b0b0b1;
+}
+
+#facebook {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 670px;
+}
+#twitter {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 680px;
+}
+.headnavigation{
+    
+    height: 100px;
+    width: 1920px;
+    background-color: #edeff2;
+    
+}
+.mainnavigation ul li {
+    
+    position: relative;
+    display: inline-flex;
+    float: left;
+    list-style: none;
+    padding: 40px 15px;
+    top: -176px;
+    background-color: #edeff2;
+    
+}
+
+.mainnavigation ul li a {
+    
+    color: black;
+    
+}
+
+.mainnavigation  {
+    
+    position:relative;
+    left:250px;
+    
+}
+
+.mainnavigation li:hover {
+    
+    background-color: #d00022;
+        
+}
+
+.mainnavigation .active {
+    
+    background-color: #d00022;
+     
+} 
+
+.mainnavigation a:hover {
+    
+    text-decoration:none;
+    color:white;
+      
+}
+#navigation2 #circle {
+    
+    position:absolute;
+    height:40px;
+    width:40px;
+    border:2px solid #d6d6d6;
+    border-radius:50%;
+    top:30px;
+    left:-3px;
+}
+#navigation2 #search {
+    
+    position:relative;
+    left:10px;
+    top:40px;
+    color: #888888;
+}
+
+#navigation2{
+    
+    float: right;
+}
+
+#navigation2 img{
+    
+    padding-right: 5px;
+}
+
+#navigation2 li:hover{
+    
+   background-color: #eee;
+    font-weight:700;
+}
+
+#navigation2 a:hover{
+    
+    color:#d0000f;
+}
+/*---------------CAROUSEL------------------*/
+.carousel{
+    
+    top:-175px;
+    overflow: hidden;
+    height: 650px;
+    width:1920px;
+    
+}
+
+.carousel figure div{
+    
+    width:33.3%;
+    float: left;
+}
+
+.carousel figure img{
+    
+    width:100%;
+    float:left;
+}
+
+.carousel figure{
+    
+    position: relative;
+    width:300%;
+    margin:0;
+    left:0;
+    animation: 20s slider infinite;
+}
+ 
+.caption{
+    
+    position:relative;
+    bottom:300px;
+    left:300px;
+    padding:20px;
+    margin:10px 250px;
+    color:white;
+}
+
+.caption #buy{
+    
+    
+    padding:10px 20px;
+    color:#fceef0;
+    background-color:#d00022;
+    margin:2px;
+}
+
+.caption #check{
+    
+    
+    padding:10px 20px;
+    color:#232323;
+    background-color:#f2f2f2;
+    margin:2px;
+}
+
+@keyframes slider {
+    
+    0%{
+        
+        left: -0%;
+    }
+    
+    10%{
+        left: -100%;
+    }
+    
+    12%{
+        left: -130%;
+    }
+    
+    16%{
+        left: -150%;
+    }
+    
+    20%{
+        left: -170%;
+    }
+    
+    25%{
+        
+        left: -180%;
+    }
+    
+    45%{
+        
+        left: -190%;
+    }
+    
+    50%{
+        
+        left: -200%;
+    }
+    60%{
+        
+        left: -180%;
+    }
+    70%{
+        
+        left: -170%;
+    }
+    
+    75%{
+        
+        left: -130%;
+    }
+    95%{
+        
+        left: -110% ;
+        
+    }
+    
+    100%{
+        
+        left:-0%;
+    }
+}
+/*-------------END----------------*/
+
+#offer {
+    
+    position: relative;
+    left:250px;
+    bottom: 100px;
+    text-align:center;
+}
+
+#offer h3{
+    
+    font-size: 30px;
+    font-weight: 600;
+}
+.catagories{
+    
+    display: inline-flex;
+    position: relative;
+    left: 500px;
+    bottom: 0px;
+    right:20px;
+    margin-right: 90px;
+}
+
+#serviceimg{
+    
+    
+    margin-right: 120px;
+}
+
+.catagories button {
+    
+    position: relative;
+    right:700px;
+    top: 220px;
+    padding: 10px 20px;
+    background-color: #d00022;
+    color:white;
+}
+
+#backround1{
+    
+        position: relative;
+        top: 230px;
+        height: 400px;
+        width: 1920px;
+        background-color: #edeff2;
+        z-index:-1;
+}
+
+.showcase1 {
+    
+    position: relative;
+    display: inline-flex;
+    float:left;
+    bottom: 95px;
+    left: 450px;
+    
+}
+.showcase1 span {
+    
+    margin: 0px 45px;
+}
+
+
+.showcase1 span button {
+    
+    padding:10px 25px;
+    color:#fceef0;
+    background-color:#d00022;
+}
+
+.showcase1 span ul li {
+    
+    margin: 5px 0px;
+}
+
+
+ #para1 p{
+    
+    top:-20px;
+    padding: 10px 0px;
+    position: relative;
+}
+
+#para1 h3{
+    
+    top:-10px;
+    position: relative;
+}
+
+#para1 button{
+    
+    top:-20px;
+    position: relative;
+}
+
+#img3 {
+    
+    position:relative;
+    bottom:20px;
+}
+
+#work {
+    
+    position:relative;
+    bottom: 650px;
+    color:white;
+    left: 45%;
+    text-align: center;
+    
+}
+
+.circles {
+    
+    position:relative;
+    bottom: 500px;
+    height:124px;
+    width:124px;
+    left: 50px;
+    border: 1px solid white;
+    border-radius:50%;
+}
+
+.circledetails{
+    
+    position:relative;
+    bottom: 465px;
+    right: 32px;
+    
+}
+
+.circledetails1{
+    
+    position:relative;
+    bottom: 450px;
+    right: 43px;
+    
+}
+
+.circledetails2{
+    
+    position:relative;
+    bottom: 455px;
+    right: 35px;
+    
+}
+
+.circledetails3{
+    
+    position:relative;
+    bottom: 450px;
+    right: 40px;
+    
+}
+.showcaseabout{
+    
+    position: relative;
+    display: inline-flex;
+    float: left;
+    left:300px;
+    top:200px;
+    
+}
+.showcaseabout p{
+    
+    position:relative;
+    bottom: 370px;
+    right: 120px;
+    color: white;
+    font-size:15px;
+    font-weight:600;
+    
+}
+
+#mechanic{
+    
+    position: relative;
+    display: inline-flex;
+    
+    height:500px;
+    bottom: 30px;
+    left:300px;
+   
+    line-height: 30px;
+}
+
+#imgmechanic {
+    
+    position: relative;
+    left: 140px;
+    
+}
+
+#imgmechanic1 {
+    
+    position: relative;
+    left: 240px;
+    
+}
+
+#imgmechanic1 button{
+    
+    position: relative;
+    left: 5px;
+    padding:10px 25px;
+    color:#fceef0;
+    background-color:#d00022;
+    top:230px;
+    border-radius:3px;
+}
+
+.reviews {
+    
+    position: relative;
+    
+    text-align: center;
+    max-width: 1140px;
+    top:120px;
+    height: 600px;
+    left:400px;
+    
+}
+
+#parts {
+    
+    position:relative;
+    
+    bottom:100px;
+    width:1920px;
+    height:700px;
+    background-color: #eee;
+    
+    
+}
+
+#productimg  {
+    
+    position:relative;
+    display:inline-flex;
+    float:left;
+    bottom: 700px;
+    left:400px;
+    text-align:center;
+    border-bottom: 1px solid #eee;
+}
+
+#productimg  span {
+    
+    margin-right: 30px;
+    
+}
+
+div.logos{
+    
+    height: 216px;
+    position: relative;
+    width:100%;
+    background-color: #ffffff;
+    bottom:580px;
+    float:left;
+    border-top: 1px solid #eee ;
+}
+
+div.logos img{
+    
+    position: relative;
+    display: inline-flex;
+    left:28%;
+    top: 35%;
+    margin-right:70px;
+    
+}
+
+#contact {
+    
+    position: relative;
+    bottom:580px;
+}
+
+
+.contactdetails {
+    
+    position: relative;
+    float:left;
+    display:inline-flex;
+    bottom:680px;
+    color:#eee;
+    left:660px;
+}
+
+.contactdetails span{
+        
+    margin: 0px 20px;
+    padding: 0px 0px;
+   
+}
+#map  {
+    
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    left:90px;
+}
+
+#map  h6{
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 15px;
+    left:0px;
+}
+
+#mail  {
+    
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 20px;
+    
+    left:130px;
+}
+
+#mail  h6{
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 20px;
+    left:0px;
+}
+
+#phone2  {
+    
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    left:180px;
+    
+}
+
+#phone2  h6{
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 20px;
+}
+
+.footer {
+    
+    position:relative;
+    bottom:590px;
+    width: 1920px;
+    height: 462px;
+    background-color: #1a1d21;
+    margin: 0px auto;
+    
+}
+
+span#company{
+    
+    position: relative;
+    float:left;
+    top: 100px;
+    left:-200px;
+}
+
+#links {
+    
+    position: relative;
+    top: 100px;
+    list-style: none;
+    text-decoration: none;
+    right: 0px;
+}
+
+#links span{
+    
+    position: relative;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right:  60px;
+    color:#646566;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+#links span ul li{
+    
+    padding-top: 30px;
+    color:#646566;
+    line-height: 3px;
+    list-style: none;
+    text-decoration: none;
+}
+
+#links span ul li a{
+    
+    color:#646566;
+    list-style: none;
+    text-decoration: none;
+}
+
+.newsletter{
+    
+    position: relative;
+    float:right;
+    top: -40px;
+    right:100px;
+}
+
+.newsletter input{
+    
+    padding: 10px 30px;
+    background-color: #212428;
+}
+
+.newsletter button{
+    
+    padding: 10px 20px;
+    background-color: #d00022;
+    color:white;
+}
+
+#copyw {
+    
+    position: relative;
+    top:170px;
+    
+    
+}
+
+#copyw span{
+    
+    position: relative;
+    float:left;
+    left:300px;
+}
+#copyw p{
+    
+    position: relative;
+    left:600px;
+    top: 175px;
+    color: #7f8081;
+}
+ <!--------end------------>
+

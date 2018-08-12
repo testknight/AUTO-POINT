@@ -1,0 +1,969 @@
+* {
+    
+    padding: 0px;
+    border: 0px;
+    margin: 0px ;
+    text-decoration:none;
+    list-style: none;
+}
+
+body {
+    
+    margin: 0px auto;
+}
+
+
+header {
+    
+    margin: 0px auto;
+    max-width: 1140px;
+    
+}
+
+.mainhead img{
+    
+    height: 100px;
+    width: 1920px;
+}
+.head{
+    
+    position: relative;
+    display: inline-flex;
+    top: -130px;
+    color: white;
+    left:250px;
+}
+
+#logo{
+    
+    position: absolute;
+    display: inline-flex;
+    float: left;
+    left: 0px;
+    top: -40px;
+}
+
+#logo h3 {
+    
+    position: relative;
+    float: left;
+    padding: 5px;
+    top:-20px;
+}
+
+#pointer {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 550px;
+    color: white;
+    
+}
+
+#pointer h6 {
+    
+    position: relative;
+    float: right;
+    padding: 10px;
+    top:-12px;
+    text-align: left;
+    border-right: 1px solid white;
+    color: #b0b0b1;
+}
+
+#phone {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 600px;
+    color: white;
+}
+
+#phone h6 {
+    
+    position: relative;
+    float: right;
+    padding: 10px;
+    top:-12px;
+    border-right: 1px solid white;
+    color: #b0b0b1;
+}
+
+#facebook {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 670px;
+}
+#twitter {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 680px;
+}
+.headnavigation{
+    
+    height: 100px;
+    width: 1920px;
+    background-color: #edeff2;
+    
+}
+
+.mainnavigation {
+    
+    position: relative;
+    left:300px;
+    
+}
+
+
+.mainnavigation ul li {
+    
+    position: relative;
+    display: inline-flex;
+    float: left;
+    list-style: none;
+    padding: 40px 15px;
+    top: -176px;
+    background-color: #edeff2;
+    
+}
+
+.mainnavigation ul li a {
+    
+    color: black;
+    
+}
+.mainnavigation li:hover {
+    
+    background-color: #d00022;
+        
+}
+
+.mainnavigation .active {
+    
+    background-color: #d00022;
+     
+} 
+
+.mainnavigation a:hover {
+    
+    text-decoration:none;
+    color:white;
+      
+}
+#navigation2 #circle {
+    
+    position:absolute;
+    height:40px;
+    width:40px;
+    border:2px solid #d6d6d6;
+    border-radius:50%;
+    top:30px;
+    left:-3px;
+}
+#navigation2 #search {
+    
+    position:relative;
+    left:10px;
+    top:40px;
+    color: #888888;
+}
+
+#navigation2{
+    
+    float: right;
+}
+
+#navigation2 img{
+    
+    padding-right: 5px;
+}
+
+#navigation2 li:hover{
+    
+   background-color: #eee;
+    font-weight:700;
+}
+
+#navigation2 a:hover{
+    
+    color:#d0000f;
+}
+
+/*---------------CAROUSEL------------------*/
+.carousel{
+    
+    top:-175px;
+    overflow: hidden;
+    height: 650px;
+    width:1920px;
+    
+}
+
+.carousel figure div{
+    
+    width:33.3%;
+    float: left;
+}
+
+.carousel figure img{
+    
+    width:100%;
+    float:left;
+}
+
+.carousel figure{
+    
+    position: relative;
+    width:300%;
+    margin:0;
+    left:0;
+    animation: 20s slider infinite;
+}
+ 
+.caption{
+    
+    position:relative;
+    bottom:300px;
+    left:300px;
+    padding:20px;
+    margin:10px 250px;
+    color:white;
+}
+
+.caption #buy{
+    
+    
+    padding:10px 20px;
+    color:#fceef0;
+    background-color:#d00022;
+    margin:2px;
+}
+
+.caption #check{
+    
+    
+    padding:10px 20px;
+    color:#232323;
+    background-color:#f2f2f2;
+    margin:2px;
+}
+
+@keyframes slider {
+    
+    0%{
+        
+        left: -0%;
+    }
+    
+    10%{
+        left: -100%;
+    }
+    
+    12%{
+        left: -130%;
+    }
+    
+    16%{
+        left: -150%;
+    }
+    
+    20%{
+        left: -170%;
+    }
+    
+    25%{
+        
+        left: -180%;
+    }
+    
+    45%{
+        
+        left: -190%;
+    }
+    
+    50%{
+        
+        left: -200%;
+    }
+    60%{
+        
+        left: -180%;
+    }
+    70%{
+        
+        left: -170%;
+    }
+    
+    75%{
+        
+        left: -130%;
+    }
+    95%{
+        
+        left: -110% ;
+        
+    }
+    
+    100%{
+        
+        left:-0%;
+    }
+}
+/*-------------END----------------*/
+
+.showcase {
+    
+    position: relative;
+    display: inline-flex;
+    float:left;
+    top: -80px;
+    left: 400px;
+}
+
+.showcase span {
+    
+    margin: 0px 10px;
+}
+
+
+#backround1{
+    
+        position: relative;
+        bottom: -190px;
+        height: 400px;
+        width: 1920px;
+        background-color: #edeff2;
+        z-index:-1;
+}
+.showcase1 {
+    
+    position: relative;
+    display: inline-flex;
+    float:left;
+    top: -135px;
+    left: 13%;
+    
+}
+
+.showcase1 span {
+    
+    margin: 0px 45px;
+}
+
+
+.showcase1 span button {
+    
+    padding:10px 25px;
+    color:#fceef0;
+    background-color:#d00022;
+}
+
+.showcase1 span ul li {
+    
+    margin: 5px 0px;
+}
+
+ #para1 p{
+    
+    top:-20px;
+    padding: 10px 0px;
+    position: relative;
+}
+
+#para1 h3{
+    
+    top:-10px;
+    position: relative;
+}
+
+#para1 button{
+    
+    top:-20px;
+    position: relative;
+}
+
+#img2 {
+    
+    position:relative;
+    top:-60px;
+}
+
+#save {
+    
+    position:relative;
+    top:-160px;
+    color:white;
+    left: 15%;
+}
+
+#appointment{
+    
+    top:-200px;
+    position: relative;
+    left: 6%;
+    padding:10px 25px;
+    color:#fceef0;
+    background-color:#d00022;
+}
+
+/*----------------*/
+
+#backround3{
+    
+        position: relative;
+        bottom: -70px;
+        height: 500px;
+        width: 1920px;
+        background-color: #edeff2;
+        z-index:-1;
+}
+.team{
+    
+    position:relative;
+    bottom: 580px;
+    left:200px;
+    margin: 0px 10px;
+}
+
+.teamimages {
+    
+    position:relative;
+    top: 250px;
+    left:200px;
+}
+.teamimages h4{
+    
+    position:relative;
+    bottom: 580px;
+    left:220px;
+    font-style:bold;
+}
+
+.teamimages button{
+    
+    margin-right: 10px;
+}
+.arrow{
+    
+    position:relative;
+    float:right;
+    bottom: 620px;
+    right:190px;
+    height:30px;
+    width:30px;
+    background-color: #dddddd;
+    z-index: 10;
+}
+
+div.gallery {
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 260px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+}
+
+.reviews {
+    
+    position: relative;
+    display: inline-block;
+    float:left;
+    bottom:150px;
+    left:390px;
+    margin:45px;
+}
+
+#speechbox {
+    
+    padding:40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#box{
+    
+    position: relative;
+    width:0px;
+    height:0px;
+    top:-50px;
+    left:30px;
+    border: solid 20px;
+    border-color: transparent #ffffff #ffffff #ffffff; 
+    background-color: #ffffff;
+    box-shadow: 0px 4px 88px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19),0,0;
+    transform:rotate(45deg);
+    
+}
+
+div.logos{
+    
+    height: 216px;
+    position: relative;
+    width:100%;
+    background-color: #ffffff;
+    bottom:200px;
+    float:left;
+    border-top: 1px solid #eee ;
+}
+
+div.logos img{
+    
+    position: relative;
+    display: inline-flex;
+    left:30%;
+    top: 35%;
+    margin-right:70px;
+    
+}
+
+#contact {
+    
+    position: relative;
+    bottom:190px;
+}
+
+
+.contactdetails {
+    
+    position: relative;
+    float:left;
+    display:inline-flex;
+    bottom:290px;
+    color:white;
+    left:650px;
+}
+
+.contactdetails span{
+    
+    
+    margin: 0px 20px;
+    padding: 0px 0px;
+   
+}
+#map  {
+    
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    left:90px;
+    
+}
+
+#map  h6{
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 15px;
+    left:0px;
+}
+
+#mail  {
+    
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 20px;
+    
+    left:130px;
+}
+
+#mail  h6{
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 20px;
+    left:0px;
+}
+
+#phone2  {
+    
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    left:180px;
+    
+}
+
+#phone2  h6{
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 20px;
+    
+}
+
+
+
+.footer {
+    
+    position:relative;
+    bottom:200px;
+    width: 1920px;
+    height: 462px;
+    background-color: #1a1d21;
+    margin: 0px auto;
+    
+}
+
+span#company{
+    
+    position: relative;
+    float:left;
+    top: 100px;
+    left:-200px;
+}
+
+#links {
+    
+    position: relative;
+    top: 100px;
+    list-style: none;
+    text-decoration: none;
+    right: 0px;
+}
+
+#links span{
+    
+    position: relative;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right:  60px;
+    color:#646566;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+#links span ul li{
+    
+    padding-top: 30px;
+    color:#646566;
+    line-height: 3px;
+    list-style: none;
+    text-decoration: none;
+}
+
+#links span ul li a{
+    
+    color:#646566;
+    list-style: none;
+    text-decoration: none;
+}
+
+.newsletter{
+    
+    position: relative;
+    float:right;
+    top: -40px;
+    right:150px;
+}
+
+.newsletter input{
+    
+    padding: 10px 30px;
+    background-color: #212428;
+}
+
+.newsletter button{
+    
+    padding: 10px 20px;
+    background-color: #d00022;
+    color:white;
+}
+
+#copyw {
+    
+    position: relative;
+    top:170px;
+    
+}
+
+#copyw span{
+    
+    position: relative;
+    float:left;
+    
+}
+#copyw p{
+    
+    position: relative;
+    left:600px;
+    top: 175px;
+    color: #7f8081;
+}
+ <!--------services------------>
+
+.catagories {
+     
+   
+}
+
+#backround1{
+    
+    position: relative;
+    top:365px;
+}
+
+#serviceimg{
+    
+    position: relative;
+    display: inline-block;
+    left:400px;
+    margin:0px 60px;
+    text-align:center;
+    top:80px;
+}
+
+.servicehead{
+    
+    position: relative;
+    top:220px;
+}
+
+#project{
+    
+    position: relative;
+    top:220px;
+    left:200px;
+}
+
+#project h4{
+    
+    position: relative;
+    bottom:100px;
+    color:white;
+    left:230px;
+    
+}
+
+#project button{
+    
+    position: relative;
+    bottom:140px;
+    color:#a2a2a2;
+    left:700px;
+    padding: 5px 20px;
+    background-color: #2f3133;
+    
+}
+
+#project button:hover{
+    
+    border: 1px solid red;
+}
+
+#project .active{
+    
+    border: 1px solid red;
+    background-color: #000;
+}
+
+#blackblock{
+
+    position:relative;
+    top:220px;
+    
+}
+
+.blackimages{
+    
+    position:relative;
+    display:inline-flex;
+    bottom:70px;
+    margin:0px;
+    padding:0px;
+    border:0px;
+    
+}
+.blackimages img{
+    
+    
+    margin:0px;
+    padding:0px;
+    border:0px;
+    
+}
+
+#blackground{
+    
+    position:relative;
+    width:384px; 
+    height:390px;
+    background-color:#000 ;
+    opacity:0.60;
+    z-index:1;
+    bottom:465px;
+    left:384px;
+}
+
+#blacktext{
+    
+    position:relative;
+    text-align: center;
+    color:white;
+    z-index:2;
+    bottom:690px;
+    display: inline-block;
+    left:470px;
+}
+
+#blacktext button{
+    
+    position:relative;
+    padding: 10px 20px;
+    background-color: #d00022;
+    font-size:10px;
+}
+
+.plusebutton {
+    
+    position: relative;
+    display: inline-block;
+    bottom:200px;
+    max-height: 400px;
+    overflow:hidden;
+    left:350px;
+}
+
+.plusebutton h3{
+    
+    position: relative;
+    left:30px;
+    bottom:45px;
+    color: #a2a2a2
+}
+
+#content {
+    
+    position: relative;
+    left: 20px;
+    bottom:30px;
+    color: #a2a2a2;
+    border-bottom:1px solid #a2a2a2;
+    line-height: 22px;
+    max-height: 5px;
+    overflow:hidden;
+    transition: max-height 0.7s;
+}
+
+#content.open {
+    
+    
+    max-height: 15px;
+    overflow:hidden;
+    transition: max-height 0.7s;
+}
+
+div.mission2 {
+    
+    position:relative;
+    float:right;
+    bottom:200px;
+    left:90px;
+}
+
+div.mission2 button{
+    
+    padding: 10px 20px;
+}
+
+#img3 {
+    
+    position:relative;
+    bottom:70px;
+}
+
+#save1 {
+    
+    position:relative;
+    bottom:170px;
+    color:white;
+    left: 20%;
+}
+
+#appointment1{
+    
+    bottom:210px;
+    position: relative;
+    left: 95%;
+    padding:10px 25px;
+    color:#fceef0;
+    background-color:#d00022;
+}
+
+.coupon {
+    
+    position:relative;
+    bottom: 150px;
+    display: inline-block;
+    border: 1px solid #a2a2a2;
+    padding:50px 30px;
+}
+
+.groupcoupon {
+    
+    position:relative;
+   top:120px;
+    left:200px;
+}
+
+.groupcoupon div{
+    
+    position: relative;
+    left: 220px;
+    margin:20px;
+    
+}
+
+.groupcoupon button{
+    
+    padding:10px 20px;
+    background-color:#a2a2a2;
+    color:#000000;
+    font-size: 10px;
+    font-weight:800;
+    position:relative;
+    top:10px;
+    
+}
+
+
+/*
+.toggle{
+ display:inline-block;
+height:48px;
+width:48px; background:url("http://icons.iconarchive.com/icons/pixelmixer/basic/48/plus-icon.png");
+ 
+}
+.toggle.expanded{
+  background:url("http://cdn2.iconfinder.com/data/icons/onebit/PNG/onebit_32.png");
+}
+
+*/

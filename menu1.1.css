@@ -1,0 +1,991 @@
+* {
+    
+    padding: 0px;
+    border: 0px;
+    margin: 0px ;
+    text-decoration:none;
+    list-style: none;
+}
+
+body {
+    
+    margin: 0px auto;
+}
+
+
+header {
+    
+    margin: 0px auto;
+    max-width: 1140px;
+    
+}
+
+.mainhead img{
+    
+    height: 100px;
+    width: 1920px;
+}
+.head{
+    
+    position: relative;
+    display: inline-flex;
+    top: -130px;
+    color: white;
+    left:250px;
+    
+}
+
+#logo{
+    
+    position: absolute;
+    display: inline-flex;
+    float: left;
+    left: 0px;
+    top: -40px;
+}
+
+#logo h3 {
+    
+    position: relative;
+    float: left;
+    padding: 5px;
+    top:-20px;
+}
+
+#pointer {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 550px;
+    color: white;
+    
+}
+
+#pointer h6 {
+    
+    position: relative;
+    float: right;
+    padding: 10px;
+    top:-12px;
+    text-align: left;
+    border-right: 1px solid white;
+    color: #b0b0b1;
+}
+
+#phone {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 600px;
+    color: white;
+}
+
+#phone h6 {
+    
+    position: relative;
+    float: right;
+    padding: 10px;
+    top:-12px;
+    border-right: 1px solid white;
+    color: #b0b0b1;
+}
+
+#facebook {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 670px;
+}
+#twitter {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 680px;
+}
+.headnavigation{
+    
+    height: 100px;
+    width: 1920px;
+    background-color: #edeff2;
+    
+}
+.mainnavigation ul li {
+    
+    position: relative;
+    display: inline-flex;
+    float: left;
+    list-style: none;
+    padding: 40px 15px;
+    top: -176px;
+    background-color: #edeff2;
+    
+}
+
+.mainnavigation ul li a {
+    
+    color: black;
+    
+}
+
+.mainnavigation {
+    
+    position:relative;
+    left:300px;
+    
+}
+
+/**/
+
+ .dropdownmenu  {
+    
+    position: absolute;
+    display: none;
+    padding: 40px 15px;
+    color: #fff;
+     z-index: 5;
+     width:250px;
+   
+}
+
+.dropdownmenu li:hover{
+    
+    position: absolute;
+    display: block;
+    width:250px;
+    z-index: 5;
+}
+
+
+ .dropdowntoggle .dropdownmenu:hover{
+    
+    position: absolute;
+    display: block;
+    color: #fff;
+    
+}
+
+/*
+.dropdownmenu  :hover{
+    
+    position: absolute;
+    display: block;
+    
+}
+*/
+.mainnavigation li:hover {
+    
+    background-color: #d00022;
+        
+}
+
+.mainnavigation .dropdowntoggle li:hover {
+    
+    position: absolute;
+    display: block;
+    
+        
+}
+
+.mainnavigation .active {
+    
+    background-color: #d00022;
+     
+} 
+
+.mainnavigation a:hover {
+    
+    text-decoration:none;
+    color:white;
+      
+}
+#navigation2 #circle {
+    
+    position:absolute;
+    height:40px;
+    width:40px;
+    border:2px solid #d6d6d6;
+    border-radius:50%;
+    top:30px;
+    left:-3px;
+}
+#navigation2 #search {
+    
+    position:relative;
+    left:10px;
+    top:40px;
+    color: #888888;
+}
+
+#navigation2{
+    
+    float: right;
+}
+
+#navigation2 img{
+    
+    padding-right: 5px;
+}
+
+#navigation2 li:hover{
+    
+   background-color: #eee;
+    font-weight:700;
+}
+
+#navigation2 a:hover{
+    
+    color:#d0000f;
+}
+
+/*---------------CAROUSEL------------------*/
+.carousel{
+    
+    top:-175px;
+    overflow: hidden;
+    height: 650px;
+    width:1920px;
+    
+}
+
+.carousel figure div{
+    
+    width:33.3%;
+    float: left;
+}
+
+.carousel figure img{
+    
+    width:100%;
+    float:left;
+}
+
+.carousel figure{
+    
+    position: relative;
+    width:300%;
+    margin:0;
+    left:0;
+    animation: 20s slider infinite;
+}
+ 
+.caption{
+    
+    position:relative;
+    bottom:300px;
+    left:300px;
+    padding:20px;
+    margin:10px 250px;
+    color:white;
+    
+}
+
+.caption #buy{
+    
+    
+    padding:10px 20px;
+    color:#fceef0;
+    background-color:#d00022;
+    margin:2px;
+}
+
+.caption #check{
+    
+    
+    padding:10px 20px;
+    color:#232323;
+    background-color:#f2f2f2;
+    margin:2px;
+}
+
+@keyframes slider {
+    
+    0%{
+        
+        left: -0%;
+    }
+    
+    10%{
+        left: -100%;
+    }
+    
+    12%{
+        left: -130%;
+    }
+    
+    16%{
+        left: -150%;
+    }
+    
+    20%{
+        left: -170%;
+    }
+    
+    25%{
+        
+        left: -180%;
+    }
+    
+    45%{
+        
+        left: -190%;
+    }
+    
+    50%{
+        
+        left: -200%;
+    }
+    60%{
+        
+        left: -180%;
+    }
+    70%{
+        
+        left: -170%;
+    }
+    
+    75%{
+        
+        left: -150%;
+    }
+    95%{
+        
+        left: -110% ;
+        
+    }
+    
+    100%{
+        
+        left:-0%;
+    }
+}
+/*-------------END----------------*/
+
+.maincontent{
+    
+    position:relative;
+    height:3700px;
+    top:200px;
+    
+}
+
+.showcase {
+    
+    position: relative;
+    display: inline-flex;
+    float:left;
+    top: -220px;
+    left: 25%;
+}
+
+.showcase span {
+    
+    margin: 0px 10px;
+}
+
+
+#backround1{
+    
+        position: relative;
+        bottom: -190px;
+        height: 400px;
+        width: 1920px;
+        background-color: #edeff2;
+        z-index:-1;
+}
+.showcase1 {
+    
+    position: relative;
+    display: inline-flex;
+    float:left;
+    top: -135px;
+    left: 23%;
+    
+}
+
+.showcase1 span {
+    
+    margin: 0px 45px;
+}
+
+
+.showcase1 span button {
+    
+    padding:10px 25px;
+    color:#fceef0;
+    background-color:#d00022;
+}
+
+.showcase1 span ul li {
+    
+    margin: 5px 0px;
+}
+
+ #para1 p{
+    
+    top:-20px;
+    padding: 10px 0px;
+    position: relative;
+}
+
+#para1 h3{
+    
+    top:-10px;
+    position: relative;
+}
+
+#para1 button{
+    
+    top:-20px;
+    position: relative;
+}
+
+#img2 {
+    
+    position:relative;
+    top:-60px;
+}
+
+#img2 img{
+    
+    width: 1920px;
+}
+
+#save {
+    
+    position:relative;
+    top:-160px;
+    color:white;
+    left: 25%;
+}
+
+#appointment{
+    
+    top:-200px;
+    position: relative;
+    left: 17%;
+    padding:10px 25px;
+    color:#fceef0;
+    background-color:#d00022;
+}
+
+.icons {
+    
+    position: relative;
+    display: inline-flex;
+    float:left;
+    top: -20px;
+    left: 23%;
+}
+
+.icons span {
+    
+    margin: 0px 45px;
+}
+
+.icons h4 {
+    
+    position: relative;
+    left: 60px;
+    top:-45px;
+}
+
+.icons p {
+    
+    position: relative;
+    left: 60px;
+    top:-45px;
+}
+
+.icons1 {
+    
+    position: relative;
+    display: inline-flex;
+    float:left;
+    top: -20px;
+    left: 23%;
+}
+
+.icons1 span {
+    
+    margin: 0px 45px;
+}
+
+.icons1 h4 {
+    
+    position: relative;
+    left: 60px;
+    top:-45px;
+}
+
+.icons1 p {
+    
+    position: relative;
+    left: 60px;
+    top:-45px;
+}
+
+#iconbutton{
+    
+    top: 280px;
+    position: relative;
+    right: 25%;
+    padding:10px 25px;
+    color:#fceef0;
+    background-color:#d00022;
+}
+
+#backround3{
+    
+        position: relative;
+        bottom: -350px;
+        height: 500px;
+        width: 1920px;
+        background-color: #edeff2;
+        z-index:-1;
+}
+
+.teamimages{
+    
+    position:relative;
+    left:200px;
+}
+
+.team{
+    
+    position:relative;
+    top:-50px;
+    left:250px;
+    margin: 0px 10px;
+}
+
+.teamimages h4{
+    
+    position:relative;
+    top:-60px;
+    left:270px;
+    font-style:bold;
+}
+
+.teamimages button{
+    
+    margin-right: 10px;
+}
+.arrow{
+    
+    position:relative;
+    float:right;
+    top:-90px;
+    left:-142px;
+    height:30px;
+    width:30px;
+    background-color: #dddddd;
+    z-index: 10;
+}
+
+div.gallery {
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 260px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+}
+
+.mission-appointment{
+    
+    position:relative;
+    left: 220px;
+    
+}
+
+div.mission {
+    
+    position:relative;
+    float:left;
+    top:90px;
+    left:250px;
+}
+
+.contactform {
+    
+    position:relative;
+    left: 140px;
+    margin: 20px;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contactform input{
+    
+    
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.contactform textarea{
+    
+    
+    padding: 0px;
+    margin: 10px;
+}
+
+
+.contactform button{
+    
+    position:relative;
+    float:right;
+    top:-70px;
+    right:10px;
+    padding:10px 25px;
+    color:#fceef0;
+    background-color:#d00022;
+}
+
+
+.reviews {
+    
+    position: relative;
+    display: inline-block;
+    float:left;
+    top:210px;
+    left:460px;
+    margin:45px;
+}
+
+#speechbox {
+    
+    padding:40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#box{
+    
+    position: relative;
+    width:0px;
+    height:0px;
+    top:-50px;
+    left:30px;
+    border: solid 20px;
+    border-color: transparent #ffffff #ffffff #ffffff; 
+    background-color: #ffffff;
+    box-shadow: 0px 4px 88px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19),0,0;
+    transform:rotate(45deg);
+    
+}
+
+.showcase2{
+    
+    width:1920px;
+    height: 675px;
+    background-color: #eeeeee;
+    position:relative;
+    top:600px;
+    
+}
+
+.team1{
+    
+    position:relative;
+    left:200px;
+    
+}
+.news{
+    
+    position:relative;
+    left: 455px;
+    font-size: 20px;
+    font-style: bold;
+}
+
+.gallery1 img{
+    
+    position:relative;
+    left: 0px;
+    float:left;
+    
+    height:227px;
+    z-index: 2;
+}
+
+div.gallery1 {
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 360px;
+    position:relative;
+    left:250px;
+}
+
+div.gallery1:hover {
+    
+    position:relative;
+    border: 1px solid #777;
+    left:250px;
+}
+
+div.gallery1 img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc1 {
+    position:relative;
+    top:20px;
+    padding: 30px;
+    color:black;
+    background-color: white;
+    
+}
+
+div.desc1 h4{
+    position:relative;
+    
+    top: 20px;
+    margin: 10px 0px;
+    color:black;
+    background-color: white;
+    
+}
+
+    span#textred a{
+    position:relative;
+    top:-30px;
+    float:right;
+    margin-right: 15px;
+    color:#000;
+    text-decoration: underline;
+    
+}
+div.gallery1 .button {
+    position: relative;
+    padding: 10px 20px;
+    background-color:#d00022;;
+    left:50px;
+    top:-250px;
+    z-index:2;
+    color:white;
+}
+
+div.logos{
+    
+    height: 216px;
+    position: relative;
+    width:100%;
+    background-color: #ffffff;
+    top:10px;
+    float:left;
+}
+
+div.logos img{
+    
+    position: relative;
+    display: inline-flex;
+    left:30%;
+    top: 35%;
+    margin-right:50px;
+    
+}
+
+#contact {
+    
+    position: relative;
+    top:10px;
+}
+
+#contact img{
+    
+    width:1920px;
+}
+
+.contactdetails {
+    
+    position: relative;
+    float:left;
+    display:inline-flex;
+    top:-90px;
+    color:white;
+    left:660px;
+}
+
+.contactdetails span{
+    
+    
+    margin: 0px 20px;
+    padding: 0px 0px;
+   
+}
+#map  {
+    
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    left:90px;
+    
+}
+
+#map  h6{
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 15px;
+    left:0px;
+}
+
+#mail  {
+    
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 20px;
+    
+    left:130px;
+}
+
+#mail  h6{
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 20px;
+    left:0px;
+}
+
+#phone2  {
+    
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    left:180px;
+    
+}
+
+#phone2  h6{
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 20px;
+    
+}
+
+.footer {
+    
+    
+    width: 1920px;
+    height: 462px;
+    background-color: #1a1d21;
+    margin: 0px auto;
+    
+}
+
+span#company{
+    
+    position: relative;
+    float:left;
+    top: 100px;
+    left:-150px;
+}
+
+#links {
+    
+    position: relative;
+    top: 100px;
+    list-style: none;
+    text-decoration: none;
+    right: 0px;
+}
+
+#links span{
+    
+    position: relative;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right:  60px;
+    color:#646566;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+#links span ul li{
+    
+    padding-top: 30px;
+    color:#646566;
+    line-height: 3px;
+    list-style: none;
+    text-decoration: none;
+}
+
+#links span ul li a{
+    
+    color:#646566;
+    list-style: none;
+    text-decoration: none;
+}
+
+.newsletter{
+    
+    position: relative;
+    float:right;
+    top: -40px;
+    right:100px;
+}
+
+.newsletter input{
+    
+    padding: 10px 30px;
+    background-color: #212428;
+}
+
+.newsletter button{
+    
+    padding: 10px 20px;
+    background-color: #d00022;
+    color:white;
+}
+
+#copyw {
+    
+    position: relative;
+    top:170px;
+    
+}
+
+#copyw span{
+    
+    position: relative;
+    float:left;
+    left:400px;
+}
+#copyw p{
+    
+    position: relative;
+    left:600px;
+    top: 175px;
+    color: #7f8081;
+}
+ <!--------services------------>

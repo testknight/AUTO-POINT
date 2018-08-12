@@ -1,0 +1,1156 @@
+* {
+    
+    padding: 0px;
+    border: 0px;
+    margin: 0px ;
+    text-decoration:none;
+    list-style: none;
+}
+
+body {
+    
+    margin: 0px auto;
+}
+
+
+header {
+    
+    margin: 0px auto;
+    max-width: 1140px;
+    
+}
+
+.mainhead img{
+    
+    height: 100px;
+    width: 1920px;
+}
+.head{
+    
+    position: relative;
+    display: inline-flex;
+    top: -130px;
+    color: white;
+    left:250px;
+}
+
+#logo{
+    
+    position: absolute;
+    display: inline-flex;
+    float: left;
+    left: 0px;
+    top: -40px;
+}
+
+#logo h3 {
+    
+    position: relative;
+    float: left;
+    padding: 5px;
+    top:-20px;
+}
+
+#pointer {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 550px;
+    color: white;
+    
+}
+
+#pointer h6 {
+    
+    position: relative;
+    float: right;
+    padding: 10px;
+    top:-12px;
+    text-align: left;
+    border-right: 1px solid white;
+    color: #b0b0b1;
+}
+
+#phone {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 600px;
+    color: white;
+}
+
+#phone h6 {
+    
+    position: relative;
+    float: right;
+    padding: 10px;
+    top:-12px;
+    border-right: 1px solid white;
+    color: #b0b0b1;
+}
+
+#facebook {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 670px;
+}
+#twitter {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 680px;
+}
+.headnavigation{
+    
+    height: 100px;
+    width: 1920px;
+    background-color: #edeff2;
+    
+}
+.mainnavigation ul li {
+    
+    position: relative;
+    display: inline-flex;
+    float: left;
+    list-style: none;
+    padding: 40px 15px;
+    top: -176px;
+    background-color: #edeff2;
+    
+}
+
+.mainnavigation ul li a {
+    
+    color: black;
+    
+}
+
+.mainnavigation  {
+    
+    position:relative;
+    left:300px;
+    
+}
+
+.mainnavigation li:hover {
+    
+    background-color: #d00022;
+    text-decoration:none;
+    color:white;    
+}
+
+.mainnavigation .active {
+    
+    background-color: #d00022;
+     
+} 
+
+.mainnavigation a:hover {
+    
+    text-decoration:none;
+    color:white;
+      
+}
+#navigation2 #circle {
+    
+    position:absolute;
+    height:40px;
+    width:40px;
+    border:2px solid #d6d6d6;
+    border-radius:50%;
+    top:30px;
+    left:-3px;
+}
+#navigation2 #search {
+    
+    position:absolute;
+    left:10px;
+    top:40px;
+    color: #888888;
+}
+
+#navigation2{
+    
+    float: right;
+}
+
+#navigation2 img{
+    
+    padding-right: 5px;
+    
+}
+
+#navigation2 li:hover{
+    
+   background-color: #eee;
+    font-weight:700;
+}
+
+#navigation2 a:hover{
+    
+    color:#d0000f;
+}
+
+
+
+/*---------------CAROUSEL------------------*/
+.carousel{
+    
+    top:-175px;
+    overflow: hidden;
+    height: 650px;
+    width:1920px;
+    
+}
+
+.carousel figure div{
+    
+    width:33.3%;
+    float: left;
+}
+
+.carousel figure img{
+    
+    width:100%;
+    float:left;
+}
+
+.carousel figure{
+    
+    position: absolute;
+    width:300%;
+    margin:0;
+    left:0;
+    animation: 20s slider infinite;
+}
+ 
+.caption{
+    
+    position:relative;
+    bottom:300px;
+    left:300px;
+    padding:20px;
+    margin:10px 250px;
+    color:white;
+}
+
+.caption #buy{
+    
+    
+    padding:10px 20px;
+    color:#fceef0;
+    background-color:#d00022;
+    margin:2px;
+}
+
+.caption #check{
+    
+    
+    padding:10px 20px;
+    color:#232323;
+    background-color:#f2f2f2;
+    margin:2px;
+}
+
+@keyframes slider {
+    
+    0%{
+        
+        left: -0%;
+    }
+    
+    10%{
+        left: -100%;
+    }
+    
+    12%{
+        left: -130%;
+    }
+    
+    16%{
+        left: -150%;
+    }
+    
+    20%{
+        left: -170%;
+    }
+    
+    25%{
+        
+        left: -180%;
+    }
+    
+    45%{
+        
+        left: -190%;
+    }
+    
+    50%{
+        
+        left: -200%;
+    }
+    60%{
+        
+        left: -180%;
+    }
+    70%{
+        
+        left: -170%;
+    }
+    
+    75%{
+        
+        left: -130%;
+    }
+    95%{
+        
+        left: -110% ;
+        
+    }
+    
+    100%{
+        
+        left:-0%;
+    }
+}
+/*-------------END----------------*/
+
+.maincontent{
+    
+    position:relative;
+    height:3700px;
+}
+
+.showcase {
+    
+    position: relative;
+    display: inline-flex;
+    float:left;
+    bottom: 100px;
+    left: 30%;
+}
+
+.showcase span {
+    
+    margin: 0px 10px;
+}
+
+
+#backround1{
+    
+        position: relative;
+        top: 310px;
+        height: 400px;
+        width: 1920px;
+        background-color: #edeff2;
+        z-index:-1;
+}
+.showcase1 {
+    
+    position: relative;
+    display: inline-flex;
+    float:left;
+    top: px;
+    left: 26%;
+    
+}
+
+.showcase1 span {
+    
+    margin: 0px 45px;
+}
+
+
+.showcase1 span button {
+    
+    padding:10px 25px;
+    color:#fceef0;
+    background-color:#d00022;
+}
+
+.showcase1 span ul li {
+    
+    margin: 5px 0px;
+}
+
+ #para1 p{
+    
+    top:-20px;
+    padding: 10px 0px;
+    position: relative;
+}
+
+#para1 h3{
+    
+    top:-10px;
+    position: relative;
+}
+
+#para1 button{
+    
+    top:-20px;
+    position: relative;
+}
+
+#img2 {
+    
+    position:relative;
+    top:60px;
+}
+
+#img2 img{
+    
+    width:1920px;
+}
+#save {
+    
+    position:relative;
+    bottom:40px;
+    color:white;
+    left: 25%;
+}
+
+#appointment{
+    
+    bottom:80px;
+    position: relative;
+    left: 16%;
+    padding:10px 25px;
+    color:#fceef0;
+    background-color:#d00022;
+}
+
+.icons {
+    
+    position: relative;
+    display: inline-flex;
+    float:left;
+    top: 100px;
+    left: 26%;
+}
+
+.icons span {
+    
+    margin: 0px 45px;
+}
+
+.icons h4 {
+    
+    position: relative;
+    left: 60px;
+    top:-45px;
+}
+
+.icons p {
+    
+    position: relative;
+    left: 60px;
+    top:-45px;
+}
+
+.icons1 {
+    
+    position: relative;
+    display: inline-flex;
+    float:left;
+    top: 100px;
+    left: 26%;
+}
+
+.icons1 span {
+    
+    margin: 0px 45px;
+}
+
+.icons1 h4 {
+    
+    position: relative;
+    left: 60px;
+    top:-45px;
+}
+
+.icons1 p {
+    
+    position: relative;
+    left: 60px;
+    top:-45px;
+}
+
+#iconbutton{
+    
+    top: 420px;
+    position: relative;
+    right: 25%;
+    padding:10px 25px;
+    color:#fceef0;
+    background-color:#d00022;
+    
+}
+
+#backround3{
+    
+        position: relative;
+        bottom: -500px;
+        height: 500px;
+        width: 1920px;
+        background-color: #edeff2;
+        z-index:-1;
+}
+
+.teamimages{
+    
+   position:relative;
+    top:150px;
+    left:180px;
+}
+
+.team{
+    
+    position:relative;
+    top:-50px;
+    left:250px;
+    margin: 0px 10px;
+}
+
+.teamimages h4{
+    
+    position:relative;
+    top:-60px;
+    left:270px;
+    font-style:bold;
+}
+
+.teamimages button{
+    
+    margin-right: 10px;
+}
+.arrow{
+    
+    position:relative;
+    float:right;
+    top:-90px;
+    left:-142px;
+    height:30px;
+    width:30px;
+    background-color: #dddddd;
+    z-index: 10;
+}
+
+div.gallery {
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 260px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+}
+
+.mission-appointment{
+    
+    position:relative;
+    top:150px;
+    left:200px;
+}
+
+div.mission {
+    
+    position:relative;
+    float:left;
+    top:90px;
+    left:250px;
+}
+
+.contactform {
+    
+    position:relative;
+    left: 140px;
+    margin: 20px;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contactform input{
+    
+    
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.contactform textarea{
+    
+    
+    padding: 0px;
+    margin: 10px;
+}
+
+
+.contactform button{
+    
+    position:relative;
+    float:right;
+    top:-70px;
+    right:10px;
+    padding:10px 25px;
+    color:#fceef0;
+    background-color:#d00022;
+    
+}
+
+.reviews {
+    
+    position: relative;
+    display: inline-block;
+    float:left;
+    top:400px;
+    left:410px;
+    margin:45px;
+}
+
+#speechbox {
+    
+    padding:40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#box{
+    
+    position: relative;
+    width:0px;
+    height:0px;
+    top:-50px;
+    left:30px;
+    border: solid 20px;
+    border-color: transparent #ffffff #ffffff #ffffff; 
+    background-color: #ffffff;
+    box-shadow: 0px 4px 88px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19),0,0;
+    transform:rotate(45deg);
+    
+}
+
+.showcase2{
+    
+    width:1900px;
+    height: 675px;
+    background-color: #eeeeee;
+    position:relative;
+    top:800px;
+}
+
+.news{
+    
+    position:relative;
+    top:210px;
+    left: 455px;
+    font-size: 20px;
+    font-style: bold;
+}
+
+.gallery1 img{
+    
+    position:relative;
+    left: 0px;
+    float:left;
+    
+    height:227px;
+    z-index: 2;
+}
+
+div.gallery1 {
+    position:relative;
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 360px;
+    left:250px;
+}
+
+div.gallery1:hover {
+     position:relative;
+    border: 1px solid #777;
+    left:250px;
+}
+
+div.gallery1 img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc1 {
+    position:relative;
+    top: 20px;
+    padding: 30px;
+    color:black;
+    background-color: white;
+    
+}
+
+div.desc1 h4{
+    position:relative;
+    
+    top: 20px;
+    margin: 10px 0px;
+    color:black;
+    background-color: white;
+    
+}
+
+span#textred a{
+    position:relative;
+    top:-30px;
+    float:right;
+    margin-right: 15px;
+    color: #000;
+    text-decoration: underline;    
+}
+
+.team1{
+    
+    position:relative;
+    top:230px;
+    left:200px;
+}
+
+div.gallery1 .button {
+    position: relative;
+    padding: 10px 20px;
+    background-color: #d00022;
+    left:50px;
+    top:-250px;
+    z-index:2;
+    color:white;
+}
+
+div.logos{
+    
+    height: 216px;
+    position: relative;
+    width:100%;
+    background-color: #ffffff;
+    top:10px;
+    float:left;
+}
+
+div.logos img{
+    
+    position: relative;
+    display: inline-flex;
+    left:30%;
+    top: 35%;
+    margin-right:50px;
+    
+}
+
+#contact {
+    
+    position: relative;
+    top:10px;
+}
+
+#contact img{
+    
+    width:1920px;
+}
+
+.contactdetails {
+    
+    position: relative;
+    float:left;
+    display:inline-flex;
+    top:-90px;
+    color:white;
+    left:660px;
+}
+
+.contactdetails span{
+    
+    
+    margin: 0px 20px;
+    padding: 0px 0px;
+   
+}
+#map  {
+    
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    left:90px;
+    
+}
+
+#map  h6{
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 15px;
+    left:0px;
+}
+
+#mail  {
+    
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 20px;
+    
+    left:130px;
+}
+
+#mail  h6{
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 20px;
+    left:0px;
+}
+
+#phone2  {
+    
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    left:180px;
+    
+}
+
+#phone2  h6{
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 20px;
+    
+}
+
+.footer {
+    
+    
+    width: 1920px;
+    height: 462px;
+    background-color: #1a1d21;
+    margin: 0px auto;
+    
+}
+
+span#company{
+    
+    position: relative;
+    float:left;
+    top: 100px;
+    left:-150px;
+}
+
+#links {
+    
+    position: relative;
+    top: 100px;
+    list-style: none;
+    text-decoration: none;
+    right: 0px;
+}
+
+#links span{
+    
+    position: relative;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right:  60px;
+    color:#646566;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+#links span ul li{
+    
+    padding-top: 30px;
+    color:#646566;
+    line-height: 3px;
+    list-style: none;
+    text-decoration: none;
+}
+
+#links span ul li a{
+    
+    color:#646566;
+    list-style: none;
+    text-decoration: none;
+}
+
+.newsletter{
+    
+    position: relative;
+    float:right;
+    top: -40px;
+    right:100px;
+}
+
+.newsletter input{
+    
+    padding: 10px 30px;
+    background-color: #212428;
+}
+
+.newsletter button{
+    
+    padding: 10px 20px;
+    background-color: #d00022;
+    color:white;
+}
+
+#copyw {
+    
+    position: relative;
+    top:170px;
+    
+}
+
+#copyw span{
+    
+    position: relative;
+    float:left;
+    left:300px;
+}
+#copyw p{
+    
+    position: relative;
+    left:600px;
+    top: 175px;
+    color: #7f8081;
+}
+ <!--------services------------>
+/*
+.catagories {
+     
+}
+
+#serviceimg{
+    
+    position: relative;
+    display: inline-block;
+    left:230px;
+    margin:0px 60px;
+    text-align:center;
+    bottom:100px;
+}
+
+.servicehead{
+    
+}
+
+#project h4{
+    
+    position: relative;
+    bottom:100px;
+    color:white;
+    left:230px;
+    
+}
+
+#project button{
+    
+    position: relative;
+    bottom:140px;
+    color:#a2a2a2;
+    left:700px;
+    padding: 5px 20px;
+    background-color: #2f3133;
+    
+}
+
+#project button:hover{
+    
+    border: 1px solid red;
+}
+
+#project .active{
+    
+    border: 1px solid red;
+}
+
+
+.blackimages{
+    
+    position:relative;
+    bottom:70px;
+    margin:0px;
+    padding:0px;
+    border:0px;
+    
+}
+.blackimages img{
+    
+    
+    margin:0px;
+    padding:0px;
+    border:0px;
+    
+}
+
+#blackground{
+    
+    position:relative;
+    width:300px; 
+    height:310px;
+    background-color:#000 ;
+    opacity:0.60;
+    z-index:1;
+    bottom:380px;
+    left:305px;
+}
+
+#blacktext{
+    
+    position:relative;
+    text-align: center;
+    color:white;
+    z-index:2;
+    bottom:1100px;
+    display: inline-block;
+    left:370px;
+}
+
+#blacktext button{
+    
+    position:relative;
+    padding: 10px 20px;
+    background-color: #d00022;
+    font-size:10px;
+}
+
+.plusebutton {
+    
+    position: relative;
+    display: inline-block;
+    bottom:350px;
+}
+
+.plusebutton h3{
+    
+    position: relative;
+    left:20px;
+    bottom:40px;
+    color: #a2a2a2
+}
+*/
+/*
+
+.content {
+    
+    position: relative;
+    left: 20px;
+    bottom:30px;
+    color: #a2a2a2;
+    border-bottom:1px solid #a2a2a2;
+    line-height: 22px;
+}
+
+div.mission2 {
+    
+    position:relative;
+    float:right;
+    bottom:300px;
+    left:-90px;
+}
+
+div.mission2 button{
+    
+    padding: 10px 20px;
+}
+
+#img3 {
+    
+    position:relative;
+    bottom:220px;
+}
+
+#save1 {
+    
+    position:relative;
+    bottom:320px;
+    color:white;
+    left: 15%;
+}
+
+#appointment1{
+    
+    bottom:360px;
+    position: relative;
+    left: 70%;
+    padding:10px 25px;
+    color:#fceef0;
+    background-color:#d00022;
+}
+
+.coupon {
+    
+    position:relative;
+    bottom: 150px;
+    display: inline-block;
+    border: 1px solid #a2a2a2;
+    padding:80px 30px;
+}
+
+.groupcoupon {
+    
+    position:relative;
+   bottom:80px;
+    
+}
+
+.groupcoupon div{
+    
+    position: relative;
+    left: 220px;
+    margin:20px;
+    
+}
+
+.groupcoupon button{
+    
+    padding:10px 20px;
+    background-color:#a2a2a2;
+    color:#000000;
+    font-size: 10px;
+    font-weight:800;
+    
+}
+
+*/
+/*
+.toggle{
+ display:inline-block;
+height:48px;
+width:48px; background:url("http://icons.iconarchive.com/icons/pixelmixer/basic/48/plus-icon.png");
+ 
+}
+.toggle.expanded{
+  background:url("http://cdn2.iconfinder.com/data/icons/onebit/PNG/onebit_32.png");
+}
+
+*/

@@ -1,0 +1,845 @@
+* {
+    
+    padding: 0px;
+    border: 0px;
+    margin: 0px ;
+    text-decoration:none;
+    list-style: none;
+}
+
+body {
+    
+    margin: 0px auto;
+}
+
+
+header {
+    
+    margin: 0px auto;
+    max-width: 1140px;
+    
+}
+
+.mainhead img{
+    
+    height: 100px;
+    width: 1920px;
+}
+.head{
+    
+    position: relative;
+    display: inline-flex;
+    top: -130px;
+    color: white;
+    left:250px;
+}
+
+#logo{
+    
+    position: absolute;
+    display: inline-flex;
+    float: left;
+    left: 0px;
+    top: -40px;
+}
+
+#logo h3 {
+    
+    position: relative;
+    float: left;
+    padding: 5px;
+    top:-20px;
+}
+
+#pointer {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 550px;
+    color: white;
+    
+}
+
+#pointer h6 {
+    
+    position: relative;
+    float: right;
+    padding: 10px;
+    top:-12px;
+    text-align: left;
+    border-right: 1px solid white;
+    color: #b0b0b1;
+}
+
+#phone {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 600px;
+    color: white;
+}
+
+#phone h6 {
+    
+    position: relative;
+    float: right;
+    padding: 10px;
+    top:-12px;
+    border-right: 1px solid white;
+    color: #b0b0b1;
+}
+
+#facebook {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 670px;
+}
+#twitter {
+    
+    position: relative;
+    float: right;
+    top:-40px;
+    left: 680px;
+}
+.headnavigation{
+    
+    height: 100px;
+    width: 1920px;
+    background-color: #edeff2;
+    
+}
+.mainnavigation ul li {
+    
+    position: relative;
+    display: inline-flex;
+    float: left;
+    list-style: none;
+    padding: 40px 15px;
+    top: -176px;
+    background-color: #edeff2;
+    
+}
+
+.mainnavigation ul li a {
+    
+    color: black;
+    
+}
+
+.mainnavigation {
+    
+    position:relative;
+    left:300px;
+    
+}
+
+.mainnavigation li:hover {
+    
+    background-color: #d00022;
+        
+}
+
+.mainnavigation .active {
+    
+    background-color: #d00022;
+     
+} 
+
+.mainnavigation a:hover {
+    
+    text-decoration:none;
+    color:white;
+      
+}
+#navigation2 #circle {
+    
+    position:absolute;
+    height:40px;
+    width:40px;
+    border:2px solid #d6d6d6;
+    border-radius:50%;
+    top:30px;
+    left:-3px;
+}
+#navigation2 #search {
+    
+    position:relative;
+    left:10px;
+    top:40px;
+    color: #888888;
+}
+
+#navigation2{
+    
+    float: right;
+}
+
+#navigation2 img{
+    
+    padding-right: 5px;
+}
+
+#navigation2 li:hover{
+    
+   background-color: #eee;
+    font-weight:700;
+}
+
+#navigation2 a:hover{
+    
+    color:#d0000f;
+}
+/*---------------End of Header------------------*/
+
+.mainimg figure{
+    
+    position: absolute;
+    top:200px;
+    
+}
+
+.mainimg1 img{
+    
+    width:1920px;
+    
+}
+ 
+.caption{
+    
+    position:absolute;
+    top:50%;
+    left:25%;
+    color:white;
+}
+
+.caption2 {
+    
+    
+    position:absolute;
+    top:50%;
+    left:80%;
+    color:white;
+}
+
+.caption2 #home{
+    
+    color:white;
+}
+
+.caption2 #Gallery{
+    
+    color:white;
+}
+
+
+/*-------------END----------------*/
+
+.maincontent{
+    
+    position:relative;
+    top:600px;
+    height: 3800px;
+    max-width: 1140px;
+    left:250px;
+}
+
+#rcust{
+    
+    position:relative;
+    top:50px;
+    left:250px;
+    background-color:#eee;
+    float:left;
+    width:100%;
+    padding:20px;
+  
+}
+
+#rcust a{
+    
+    text-decoration:none;
+    color:#000;
+    font-weight:600px;
+    
+}
+
+.uform{
+    
+    position:absolute;
+    top:300px;
+    left:250px;
+    
+}
+
+
+.uform a{
+    
+    position:absolute;
+    top:200px;
+    right:1140px;
+    width:150px;
+    text-decoration:none;
+    color:#000;
+    
+}
+
+form{
+    
+    display:inline-flex;
+    
+}
+form input{
+    
+    border:1px solid #eee;
+    position:relative;
+    top:50px;
+    right:120px;
+    width:500px;
+    height:40px;
+}
+
+form button{
+    
+    position: relative;
+    padding:10px 20px;
+    background-color:#eee;
+    top:120px;
+    right:1200px;
+}
+
+#cbox{
+    
+    position:absolute;
+    top:110px;
+    right:970px;
+}
+
+#cbox input {
+    
+    width:15px;
+    height:15px;
+    color:#000;
+}
+
+#ucoupon{
+    
+    position:relative;
+    top:450px;
+    left:250px;
+    background-color:#eee;
+    float:left;
+    width:100%;
+    padding:20px;
+  
+}
+
+#Ccode{
+    
+    position:relative;
+    top:500px;
+    left:250px;
+    float:left;
+    width:100%;
+    padding:20px;
+    border:1px solid #eee;
+}
+
+#Ccode input{
+    
+    border:1px solid #eee;
+    width:50%;
+    padding:10px;
+}
+
+#Ccode button{
+    
+    background-color: #d00022;
+    color:#fff;
+    padding:15px 20px;
+    font-size:10px;
+    margin:0px 15px;
+}
+
+#billingD h3{
+    
+    position:absolute;
+    top:850px;
+    left:250px;
+}
+
+#formM{
+    
+    position:absolute;
+    top:950px;
+    left:250px;
+    
+}
+
+#formM p{
+    
+    position:absolute;
+    top:0px;
+    color:#fd6262;
+    left:80px;
+    
+}
+
+#formM input{
+    
+    border:1px solid #eee;
+    padding: 5px 10px;
+    width:
+    
+}
+
+#Lname{
+    
+    position:absolute;
+    left:250px;
+    bottom:57px;
+}
+
+#Cname{
+    
+    position:relative;
+    top:30px;
+    
+}
+
+#Cname input{
+    
+    width:450px;
+}
+
+#formM2{
+    
+    position:absolute;
+    top:180px;
+    left:0px;
+    
+}
+
+#Ename{
+    
+    position:absolute;
+    left:250px;
+    bottom:0px;
+}
+
+#formM2 p{
+    
+    position:absolute;
+    
+    left:100px;
+}
+
+#Ename p{
+    
+    position:absolute;
+    left:50px;
+}
+
+#Oname{
+    
+     position:absolute;
+    top:250px;
+}
+
+#Oname p{
+    
+    position:absolute;
+    left:60px;
+}
+
+#Oname select{
+    
+    position:absolute;
+    bottom:5px;
+    width:450px;
+    border:1px solid #eee;
+    padding:8px 0px;
+}
+
+#Aname{
+    
+    position:absolute;
+    top:330px;
+    
+}
+
+#Aname p{
+    
+    position:absolute;
+    left:60px;
+    
+}
+
+#Aname input{
+    
+    position:relative;
+    margin:5px 0px;
+    width:450px;
+    bottom:20px;
+}
+
+#Tname {
+    
+    position:absolute;
+    top:450px;
+}
+
+#Tname input {
+    
+    position:relative;
+    width:450px;
+    bottom:20px;
+}
+
+#formM3{
+    
+    position:absolute;
+    top:550px;
+    left:0px;
+    
+}
+
+#formM3 p{
+    
+    position:absolute;
+    left:100px;
+}
+
+#Cbox{
+   
+     position:absolute;
+    top:650px;
+    
+}
+
+#Cbox a{
+   
+     position:relative;
+    text-decoration:none;
+    color:#000;
+    left:5px;
+    bottom:2px;
+    
+}
+
+#lcontent{
+    
+    position:absolute;
+    top:900px;
+}
+
+#lcontent h4{
+    
+    position:relative;
+    left:20px;
+    bottom:30px;
+    font-weight:600;
+}
+
+#lcontent textarea{
+    
+    border:1px solid #eee;
+    border-radius:2px;
+}
+
+#Ycontents {
+    
+    position:relative;
+    top:1400px;
+    left:250px;
+    
+}
+
+#Ycontents td{
+    
+    padding:0px 20px;
+}
+
+#Ycontents th{
+    
+    padding:0px 20px;
+}
+
+#Ycontents table,tr{
+    
+    width:100%;
+    border:1px solid #eee;
+    height:50px;
+    
+}
+
+#Ycontents h4{
+    
+    position:absolute;
+    top:250px;
+    font-weight: 600;
+}
+
+#Dbank{
+    
+    position:relative;
+    top:1500px;
+    width:100%;
+    height:400px;
+    background-color: #eee;
+    left:250px;
+}
+
+#Dbank input {
+    
+    margin:20px;
+}
+
+#Dbank p{
+    
+    position:relative;
+    bottom:30px;
+    margin:20px;
+    padding:20px;
+    background-color: #fff;  
+}
+
+#Dbank h6{
+    
+    position:relative;
+    float:right;
+    color:#d00022;
+    right:20px;
+    font-weight:500;
+}
+
+#Dbank button{
+    
+    position:relative;
+    float:right;
+    background-color:#d00022;
+    color:white;
+    padding:10px 20px;
+    top:150px;
+    left:70px;
+}
+
+#sbox {
+    
+    position:relative;
+    height:20px;
+    width:20px;
+    
+    background-color:white;
+    transform: rotate(45deg);
+    left:50px;
+    
+}
+    /*-------------LOGOS----------------*/
+
+#contact {
+    
+    position: relative;
+    bottom:450px;
+}
+
+#contact img{
+    
+    width:1920px;
+}
+
+.contactdetails {
+    
+    position: relative;
+    float:left;
+    display:inline-flex;
+    bottom:550px;
+    color:white;
+    left:660px;
+}
+
+.contactdetails span{
+    
+    
+    margin: 0px 20px;
+    padding: 0px 0px;
+   
+}
+#map  {
+    
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    left:90px;
+    
+}
+
+#map  h6{
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 15px;
+    left:0px;
+}
+
+#mail  {
+    
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 20px;
+    
+    left:130px;
+}
+
+#mail  h6{
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 20px;
+    left:0px;
+}
+
+#phone2  {
+    
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    left:180px;
+    
+}
+
+#phone2  h6{
+    
+    position: relative;
+    float:right;
+    margin: 0px 0px;
+    padding: 0px 20px;
+    
+}
+
+/*-------------footer----------------*/
+
+.footer {
+    
+    position:relative;
+    bottom:460px;
+    width: 1920px;
+    height: 462px;
+    background-color: #1a1d21;
+    margin: 0px auto;
+    
+}
+
+span#company{
+    
+    position: relative;
+    float:left;
+    top: 100px;
+    left:-150px;
+}
+
+#links {
+    
+    position: relative;
+    top: 100px;
+    list-style: none;
+    text-decoration: none;
+    right: 0px;
+}
+
+#links span{
+    
+    position: relative;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right:  60px;
+    color:#646566;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+#links span ul li{
+    
+    padding-top: 30px;
+    color:#646566;
+    line-height: 3px;
+    list-style: none;
+    text-decoration: none;
+}
+
+#links span ul li a{
+    
+    color:#646566;
+    list-style: none;
+    text-decoration: none;
+}
+
+.newsletter{
+    
+    position: relative;
+    float:right;
+    top: -40px;
+    right:100px
+}
+
+.newsletter input{
+    
+    padding: 10px 30px;
+    background-color: #212428;
+}
+
+.newsletter button{
+    
+    padding: 10px 20px;
+    background-color: #d00022;
+    color:white;
+}
+
+#copyw {
+    
+    position: relative;
+    top:170px;
+    
+}
+
+#copyw span{
+    
+    position: relative;
+    float:left;
+    
+}
+#copyw p{
+    
+    position: relative;
+    left:600px;
+    top: 175px;
+    color: #7f8081;
+}
+ <!--------services------------>
+
+
+
+/*
+.toggle{
+ display:inline-block;
+height:48px;
+width:48px; background:url("http://icons.iconarchive.com/icons/pixelmixer/basic/48/plus-icon.png");
+ 
+}
+.toggle.expanded{
+  background:url("http://cdn2.iconfinder.com/data/icons/onebit/PNG/onebit_32.png");
+}
+
+*/
